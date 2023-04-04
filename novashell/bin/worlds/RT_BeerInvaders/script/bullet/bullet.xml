@@ -1,0 +1,15 @@
+<resources>
+
+	<profile name="bullet">
+		<anim state="idle_left" spritename="explode" mirrorx="no" x="-31" y="-33"/>
+	</profile>
+  
+  
+	<sprite name="explode">
+		<image fileseq="art/bullet_.png" leading_zeroes="3"/>
+		<translation origin="top_left"/>
+		<animation on_finish="blank" pingpong="no" loop="no" speed="30"/>
+	</sprite>
+		
+		
+</resources>

@@ -1,0 +1,127 @@
+
+<resources>
+
+	<profile name="dink">	
+ 
+	   <anim state="idle_left" spritename="idle_left" mirrorx="no" x="-31" y="-66"/>
+	   <anim state="idle_right" spritename="idle_right" mirrorx="no" x="-37" y="-68"/>
+	   <anim state="idle_up" spritename="idle_up" mirrorx="no" x="-34" y="-67"/>
+	   <anim state="idle_down" spritename="idle_down" mirrorx="no" x="-34" y="-69"/>
+	
+	   <anim state="walk_left" spritename="walk_left" mirrorx="no" x="-39" y="-68"/>
+	   <anim state="walk_right" spritename="walk_right" mirrorx="no" x="-38" y="-67"/>
+	   <anim state="walk_up" spritename="walk_up" mirrorx="no" x="-38" y="-66"/>
+	   <anim state="walk_down" spritename="walk_down" mirrorx="no" x="-38" y="-70"/>
+	
+	   <anim state="walk_up_left" spritename="walk_up_left" mirrorx="no" x="-40" y="-65"/>
+	   <anim state="walk_down_left" spritename="walk_down_left" mirrorx="no" x="-37" y="-66"/>
+	   <anim state="walk_up_right" spritename="walk_up_right" mirrorx="no" x="-38" y="-66"/>
+	   <anim state="walk_down_right" spritename="walk_down_right" mirrorx="no" x="-39" y="-66"/>
+	
+	   <anim state="attack1_left" spritename="attack_left" mirrorx="no" x="-60" y="-73"/>
+	   <anim state="attack1_right" spritename="attack_right" mirrorx="no" x="-60" y="-71"/>
+	   <anim state="attack1_up" spritename="attack_up" mirrorx="no" x="-61" y="-70"/>
+	   <anim state="attack1_down" spritename="attack_down" mirrorx="no" x="-62" y="-73"/>
+ 
+  </profile>
+		
+			
+		<sprite name="idle_down">
+			<image fileseq="idle/DS-I2-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-34" y="-69"/>
+			<animation pingpong="no" loop="yes" speed="250"/>
+		</sprite>
+		
+		<sprite name="idle_up">
+			<image fileseq="idle/DS-I8-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-34" y="67"/>
+			<animation pingpong="no" loop="yes" speed="250"/>
+		</sprite>
+		
+		<sprite name="idle_left">
+			<image fileseq="idle/DS-I4-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-31" y="66"/>
+			<animation pingpong="no" loop="yes" speed="250"/>
+		</sprite>
+	
+		<sprite name="idle_right">
+			<image fileseq="idle/DS-I6-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-37" y="68"/>
+			<animation pingpong="no" loop="yes" speed="250"/>
+		</sprite>
+		
+		<sprite name="walk_down">
+			<image fileseq="walk/ds-w2-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-38" y="70"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+		
+		<sprite name="walk_up">
+			<image fileseq="walk/ds-w8-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-38" y="66"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+		
+		<sprite name="walk_left">
+			<image fileseq="walk/ds-w4-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-39" y="68"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+		
+		
+		<sprite name="walk_right">
+			<image fileseq="walk/ds-w6-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-38" y="67"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+		
+	<sprite name="walk_up_left">
+			<image fileseq="walk/ds-w7-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-40" y="65"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+	
+	<sprite name="walk_up_right">
+			<image fileseq="walk/ds-w9-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-38" y="66"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+	<sprite name="walk_down_left">
+			<image fileseq="walk/ds-w1-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-37" y="66"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+	
+	<sprite name="walk_down_right">
+			<image fileseq="walk/ds-w3-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-39" y="66"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+
+
+	<sprite name="attack_left">
+			<image fileseq="hit/DS-H4-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-60" y="73"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+
+	<sprite name="attack_right">
+			<image fileseq="hit/DS-H6-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-60" y="71"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+
+	<sprite name="attack_up">
+			<image fileseq="hit/DS-H8-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-61" y="70"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+
+	<sprite name="attack_down">
+			<image fileseq="hit/DS-H2-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-62" y="73"/>
+			<animation pingpong="no" loop="yes" speed="70"/>
+		</sprite>
+	
+  
+</resources>

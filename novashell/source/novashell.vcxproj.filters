@@ -1,0 +1,1470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{980655c0-7083-4505-b9f7-d538c6eaf385}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{f9815fea-8954-4815-b154-f8f2464eb9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{5161f1db-c602-4965-b21d-c67ace18840c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Editor">
+      <UniqueIdentifier>{097de712-37c9-42db-8665-98565406b1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Editor\Generators">
+      <UniqueIdentifier>{1a460442-4df0-4d35-985e-c88437fd8b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Map">
+      <UniqueIdentifier>{0a2ca8d7-1b01-4c60-9a25-754aac547c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Brains">
+      <UniqueIdentifier>{be18bff5-f439-4cff-91bb-14aab23804a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Brains\Custom">
+      <UniqueIdentifier>{f013f6a0-f5c8-40d9-ad42-df746f60c1c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\States">
+      <UniqueIdentifier>{91877fe9-681a-42d4-8631-1b46b2072d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\AI">
+      <UniqueIdentifier>{640693d4-8740-4fbc-aae6-c284b8314790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data">
+      <UniqueIdentifier>{7f928bf0-ecc7-4760-84c4-0657c7543aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data\Tiles">
+      <UniqueIdentifier>{b4bf7a51-62d7-4675-9faa-fb14d3c2aba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{178e6668-18c4-497c-b200-68c3420dd46c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script">
+      <UniqueIdentifier>{febd08d1-5e2e-4a01-be29-39d4f5ea693e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script\Lua">
+      <UniqueIdentifier>{97a155eb-5a75-4e73-b6b0-bba833fe749e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script\LuaBind">
+      <UniqueIdentifier>{f5acb4ef-6460-4db6-b2d0-3ba39a55d29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Script\LauBindBindings">
+      <UniqueIdentifier>{ffe6b202-90f7-4409-a187-261f2de0e69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{6b08b605-bd6c-4538-973e-ee06073a9d44}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GuiBitmap">
+      <UniqueIdentifier>{9fe0bc0f-e7e5-4da0-9eeb-ce25719a6634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuiBitmap\Base">
+      <UniqueIdentifier>{8f6d12c1-eff9-4e41-99b3-aa414e260735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{86387a93-a114-4500-acfd-46f37a833903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LinearParticle">
+      <UniqueIdentifier>{ecb3e973-ed59-4d46-b242-5efb06ac29fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Docs">
+      <UniqueIdentifier>{482a2c64-0e8c-4914-b1ea-62a3cff3c1ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D">
+      <UniqueIdentifier>{7067a760-56ca-48a7-8743-6aad379fccc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Collision">
+      <UniqueIdentifier>{5d3a1c0e-4662-43f8-bf71-c1e97154950d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Collision\Shapes">
+      <UniqueIdentifier>{6edc9be3-ee93-4af3-a1f2-3bcb5220b834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Common">
+      <UniqueIdentifier>{e6c9d3e5-10a4-4b10-861a-723e3e35ff26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Dynamics">
+      <UniqueIdentifier>{7845904a-6941-4277-8a14-703d64a160f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Dynamics\Contacts">
+      <UniqueIdentifier>{2a9f2243-7278-4526-88d0-e3644ca06a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Box2D\Dynamics\Joints">
+      <UniqueIdentifier>{7ed3fede-7ddc-4ec5-baa4-52ba89013b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map Exporters">
+      <UniqueIdentifier>{08fc272e-e0e5-4e80-a1e4-1c09fb877797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{785f82c5-b72a-47bb-b9b5-a686e64d0ec3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH">
+      <UniqueIdentifier>{0939384d-7255-4e05-8a2e-cc9dce22718f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\MapH">
+      <UniqueIdentifier>{67c46f4b-2614-4c7d-b03b-e41f7e5446b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\EditorH">
+      <UniqueIdentifier>{3cdd391c-1945-4113-b216-d6940c008656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\EditorH\Generator">
+      <UniqueIdentifier>{5b7adfd1-d87b-47b8-81b1-919afd33a43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\StatesH">
+      <UniqueIdentifier>{30ad1195-55a0-4080-9834-1f0b38dd7bd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\BrainsH">
+      <UniqueIdentifier>{aa4b0ed5-1dc4-43f8-b294-f45038d74b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\AI">
+      <UniqueIdentifier>{d5194834-ebb2-4f04-9373-ecd609d0ca10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\GuiBitmap">
+      <UniqueIdentifier>{279b191d-1c56-4934-af0b-235817fcbb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EntitiesH\GuiBitmap\Base">
+      <UniqueIdentifier>{b3df449b-4678-4e3e-9a51-ed3f54ed7837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ManagerH">
+      <UniqueIdentifier>{3bd4ed6d-bb0e-4618-b79e-ccf50309ab2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataH">
+      <UniqueIdentifier>{8615b83a-d5fb-4c5f-81e6-9a09b3e4c740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScriptH">
+      <UniqueIdentifier>{77248a21-6e2f-4d5c-8046-aac39e158927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScriptH\LuaH">
+      <UniqueIdentifier>{5514d44e-5f17-40f1-aa76-08ebcca45a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScriptH\LuaBindH">
+      <UniqueIdentifier>{09b2f5ad-4620-4fab-89ad-fe06e63b6c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScriptH\LuaBindings">
+      <UniqueIdentifier>{0de96bbf-ea0f-41d5-86a5-9dc95e365892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{e85f7cfa-9b78-44d1-8d64-4883ec1210a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LinearParticle">
+      <UniqueIdentifier>{7c687c47-1348-43a6-a3b4-39b476d6f6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Box2D">
+      <UniqueIdentifier>{f0bb0a7e-a751-47c7-865e-0f4a7c367208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppPrecomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGameEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntChoiceDialog.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntCreationUtils.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntWorldDialog.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="DataEditor.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EntChooseScreenMode.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EntCollisionEditor.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EntEditMode.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EntEditor.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EntVisualProfileEditor.cpp">
+      <Filter>Source Files\Entities\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Entities\Editor\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorDink.cpp">
+      <Filter>Source Files\Entities\Editor\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorSimple.cpp">
+      <Filter>Source Files\Entities\Editor\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="EntMapCache.cpp">
+      <Filter>Source Files\Entities\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Brain.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainBob.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainColorFade.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainColorFlash.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainFadeIn.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainFadeOutAndDelete.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainForceVisual.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainManager.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainScale.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainShake.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainTopBase.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainTopSeek.cpp">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainDoomWall.cpp">
+      <Filter>Source Files\Entities\Brains\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="BrainLife.cpp">
+      <Filter>Source Files\Entities\Brains\Custom</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateAttack2.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDie.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateFrozen.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateJump.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StatePain.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateRun.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSpecial1.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTopAttack.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTopIdle.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTopWalk.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateTurn.cpp">
+      <Filter>Source Files\Entities\States</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_Approach.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_Delay.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_FollowPath.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_MoveToMapAndPos.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_MoveToPosition.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_NegotiateDoor.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_RunScript.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_Say.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_SeekToPosition.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_Think.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Goal_TraverseEdge.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\NavGraphManager.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\PathPlanner.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\WorldNavManager.cpp">
+      <Filter>Source Files\Entities\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionData.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedResource.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MapChunk.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PointList.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEditOperation.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualProfile.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualResource.cpp">
+      <Filter>Source Files\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Data\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEntity.cpp">
+      <Filter>Source Files\Data\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSetting.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="HashedResourceManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEntityManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="NovaZip.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TagManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualProfileManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\WatchManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldPackager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCallbackManager.cpp">
+      <Filter>Source Files\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManagerBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalScriptFunctionBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="luabindBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscClassBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorBindings.cpp">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\NS_MessageBox.cpp">
+      <Filter>Source Files\GuiBitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\button_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\checkbox_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\frame_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\inputbox_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\label_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\listbox_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\scrollbar_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\stylemanager_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleBitmap\window_Bitmap.cpp">
+      <Filter>Source Files\GuiBitmap\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopingSoundBindings.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBase.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectExplosion.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="KnownIssues.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionController.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="MapExportXML.cpp">
+      <Filter>Source Files\Map Exporters</Filter>
+    </ClCompile>
+    <ClCompile Include="TileBindings.cpp">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\class.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\class_info.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\class_registry.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\class_rep.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\create_class.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\error.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\find_best_match.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\function.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\implicit_cast.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_DroppingEffect.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_EffectEmitter.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_EffectManager.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_ExplosionEffect.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_MotionController.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_Particle.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_ParticleEffect.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_ParticleMem.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_ParticleSystem.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_ShootingEffect.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\linearparticle\sources\L_Vector.cpp">
+      <Filter>Source Files\LinearParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lapi.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lauxlib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lbaselib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lcode.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ldblib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ldebug.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ldo.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ldump.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lfunc.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lgc.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\linit.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\link_compatibility.cpp">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\liolib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\llex.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lmathlib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lmem.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\loadlib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lobject.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lopcodes.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\loslib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lparser.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lstate.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lstring.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lstrlib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ltable.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ltablib.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\ltm.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lundump.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lvm.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\lzio.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\object_rep.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\open.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\overload_rep.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\wrapper_base.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\weak_ref.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\stack_content_by_name.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\ref.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\scope.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\luabind\src\pcall.cpp">
+      <Filter>Source Files\Script\LuaBind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\misc\CL_SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\misc\FMSoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Common\b2BlockAllocator.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\b2Body.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2BroadPhase.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2CollideCircle.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2CollidePoly.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2Collision.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\b2ContactManager.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2Distance.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\b2Island.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2Joint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Common\b2Math.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2PairManager.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2PolyAndCircleContact.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2PolyContact.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Common\b2Settings.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2Shape.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Common\b2StackAllocator.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Collision\b2TimeOfImpact.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\b2World.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\Box2D\Source\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>Source Files\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\misc\MiscUtils.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="AppUtils.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\misc\CL_VirtualFileManager.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedLib\lua\src\print.c">
+      <Filter>Source Files\Script\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BrainBob.h">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainColorFade.h">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainForceVisual.h">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainScale.h">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainTopSeek.h">
+      <Filter>Source Files\Entities\Brains</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainDoomWall.h">
+      <Filter>Source Files\Entities\Brains\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainLife.h">
+      <Filter>Source Files\Entities\Brains\Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEntity.h">
+      <Filter>Source Files\Data\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldPackager.h">
+      <Filter>Source Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCallbackManager.h">
+      <Filter>Source Files\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="TileBindings.h">
+      <Filter>Source Files\Script\LauBindBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopingSoundBindings.h">
+      <Filter>Source Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="MapExportXML.h">
+      <Filter>Source Files\Map Exporters</Filter>
+    </ClInclude>
+    <ClInclude Include="AppPrecomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEntity.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntChoiceDialog.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntCreationUtils.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntWorldDialog.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingEntity.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Header Files\EntitiesH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntMapCache.h">
+      <Filter>Header Files\EntitiesH\MapH</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorDink.h">
+      <Filter>Header Files\EntitiesH\MapH</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEditOperation.h">
+      <Filter>Header Files\EntitiesH\MapH</Filter>
+    </ClInclude>
+    <ClInclude Include="DataEditor.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntChooseScreenMode.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntCollisionEditor.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntEditMode.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntEditor.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="EntVisualProfileEditor.h">
+      <Filter>Header Files\EntitiesH\EditorH</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorInterface.h">
+      <Filter>Header Files\EntitiesH\EditorH\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorSimple.h">
+      <Filter>Header Files\EntitiesH\EditorH\Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateAttack2.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDie.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateFrozen.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateJump.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StatePain.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateRun.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSpecial1.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTopAttack.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTopIdle.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTopWalk.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="StateTurn.h">
+      <Filter>Header Files\EntitiesH\StatesH</Filter>
+    </ClInclude>
+    <ClInclude Include="Brain.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainColorFlash.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainFadeIn.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainManager.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainShake.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="BrainTopBase.h">
+      <Filter>Header Files\EntitiesH\BrainsH</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_Approach.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_Composite.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_Delay.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_FollowPath.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_MoveToMapAndPos.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_RunScript.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_Say.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_SeekToPosition.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_Think.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Goal_TraverseEdge.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\graphalgorithms.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\message_types.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\NavGraphManager.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\PathPlanner.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\WatchManager.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\WorldNavManager.h">
+      <Filter>Header Files\EntitiesH\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\button_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\checkbox_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\frame_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\inputbox_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\label_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\listbox_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\listboxitem_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\scrollbar_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\stylemanager_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyleBitmap\window_Bitmap.h">
+      <Filter>Header Files\EntitiesH\GuiBitmap\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSetting.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedResourceManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEntityManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="NovaZip.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="TagManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="TextManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualProfileManager.h">
+      <Filter>Header Files\ManagerH</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="HashedResource.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="MapChunk.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="PointList.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualProfile.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualResource.h">
+      <Filter>Header Files\DataH</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.h">
+      <Filter>Header Files\ScriptH</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManagerBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalScriptFunctionBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="luabindBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClassBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorBindings.h">
+      <Filter>Header Files\ScriptH\LuaBindings</Filter>
+    </ClInclude>
+    <ClInclude Include="AppUtils.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Include\Box2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\b2BroadPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\b2Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\b2PairManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2CircleShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2PolygonShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Collision\Shapes\b2Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Common\b2BlockAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Common\b2Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Common\b2Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Common\b2StackAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\b2Body.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\b2ContactManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\b2Island.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\b2World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\b2WorldCallbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2Contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2NullContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2PolyAndCircleContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Contacts\b2PolyContact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2GearJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2Joint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\Box2D\Source\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_Defination.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_DroppingEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_EffectEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_EffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_ExplosionEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_MotionController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_ParticleEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_ParticleMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_ShootingEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\linearparticle\sources\L_Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\adopt_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\back_reference.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\back_reference_fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\class.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\class_info.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\config.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\container_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\copy_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\dependency_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\discard_result_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\error.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\from_stack.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\function.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\get_pointer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\handle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\iterator_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\luabind.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\lua_include.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\object.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\open.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\operator.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\out_value_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\prefix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\raw_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\return_reference_to_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\scope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\value_wrapper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\weak_ref.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\wrapper_base.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\luabind\luabind\yield_policy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\lua\src\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\misc\CL_SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedLib\misc\ISoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="NovaShell.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="novashell.rc">
+      <Filter>Source Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\bin\credits.txt" />
+    <Text Include="..\bin\history.txt" />
+    <Text Include="..\readme.txt" />
+  </ItemGroup>
+</Project>

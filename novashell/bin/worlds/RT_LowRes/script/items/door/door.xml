@@ -1,0 +1,14 @@
+<resources>
+  
+  <profile name="door">
+    <anim state="normal" spritename="normal" mirrorx="no" x="-8" y="-8"/>
+  </profile>
+   
+  <sprite name="normal">
+  	<image file="door.png">
+			<grid size="16,16" array="2,1"/>
+		</image>
+ 		<animation pingpong="no" loop="no" speed="500"/>
+ 	</sprite>
+
+</resources>

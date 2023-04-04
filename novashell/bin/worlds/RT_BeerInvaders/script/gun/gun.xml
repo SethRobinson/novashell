@@ -1,0 +1,13 @@
+<resources>
+
+		<sprite name="shoot">
+			<image fileseq="art/gun.png" leading_zeroes="3"/>
+			<translation origin="top_left" x="-43" y="-36"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="30"/>
+		</sprite>
+		
+  <profile name="gun">
+	   <anim state="shoot" spritename="shoot" mirrorx="no" x="-33" y="-56"/>
+  </profile>
+		
+</resources>

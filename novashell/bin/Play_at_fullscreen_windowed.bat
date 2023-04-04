@@ -1,0 +1,1 @@
+game.exe -res desktop -windowed

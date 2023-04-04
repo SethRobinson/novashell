@@ -1,0 +1,18 @@
+//this file contains important data about the world that the engine checks before it loads anything
+
+//world will fail if the engine is older than this.  Newer versions will attempt to emulate this version
+engine_version_requested|0.29
+world_version|0.1
+world_name|Example - Simple Primitives - Tests the DrawManager
+world_description|Simple game loop that uses the DrawManager to draw primitives
+world_author|Seth A. Robinson
+world_author_email|seth@rtsoft.com
+world_website|www.rtsoft.com
+desired_resolution|320|200|32
+
+//must be 200X200 jpg
+world_thumbnail|
+
+//if this is a mod of a mod(s), add its dependencies here (dir name|version required) (base is assumed, don't need to add that)
+//add_world_requirement|SomeModA|0.0
+//add_world_requirement|SomeModB|0.0

@@ -1,0 +1,17 @@
+//this file contains important data about the world that the engine checks before it loads anything
+
+//world will fail if the engine is older than this.  Newer versions will attempt to emulate this version
+engine_version_requested|0.81
+world_version|0.1
+world_name|Example - Top View RPG Style Test
+world_description|Walk around a town, converse with patrons, go outside and kill monsters.  Uses pathfinding and AI.
+world_author|Seth A. Robinson
+world_website|www.rtsoft.com
+desired_resolution|1024|768|32
+
+//must be 200X200 jpg
+world_thumbnail|
+
+//if this is a mod of a mod(s), add its dependencies here (dir name|version required) (base is assumed, don't need to add that)
+//add_world_requirement|SomeModA|0.0
+//add_world_requirement|SomeModB|0.0

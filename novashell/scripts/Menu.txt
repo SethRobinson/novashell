@@ -1,0 +1,140 @@
+Format: Development Release 02-10-2007 (1.35 base)
+
+
+Title: Novashell Scripting Reference
+
+# You can also add a sub-title to your menu like this:
+# SubTitle: [subtitle]
+
+Footer: &amp;copy;2008 Seth A. Robinson
+Timestamp: Last updated mon day
+#   m     - One or two digit month.  January is "1"
+#   mm    - Always two digit month.  January is "01"
+#   mon   - Short month word.  January is "Jan"
+#   month - Long month word.  January is "January"
+#   d     - One or two digit day.  1 is "1"
+#   dd    - Always two digit day.  1 is "01"
+#   day   - Day with letter extension.  1 is "1st"
+#   yy    - Two digit year.  2006 is "06"
+#   yyyy  - Four digit year.  2006 is "2006"
+#   year  - Four digit year.  2006 is "2006"
+
+
+# --------------------------------------------------------------------------
+# 
+# Cut and paste the lines below to change the order in which your files
+# appear on the menu.  Don't worry about adding or removing files, Natural
+# Docs will take care of that.
+# 
+# You can further organize the menu by grouping the entries.  Add a
+# "Group: [name] {" line to start a group, and add a "}" to end it.
+# 
+# You can add text and web links to the menu by adding "Text: [text]" and
+# "Link: [name] ([URL])" lines, respectively.
+# 
+# The formatting and comments are auto-generated, so don't worry about
+# neatness when editing the file.  Natural Docs will clean it up the next
+# time it is run.  When working with groups, just deal with the braces and
+# forget about the indentation and comments.
+# 
+# --------------------------------------------------------------------------
+
+
+File: Overview  (main.h)
+
+Group: System Objects  {
+
+   File: App  (main.cpp)
+   File: GameLogic  (GameLogic.cpp)
+   File: MapManager  (MapManager.cpp)
+   File: InputManager  (InputManager.cpp)
+   File: EffectManager  (EffectManager.cpp)
+   File: Camera  (Camera.cpp)
+   File: SoundManager  (VisualResource.cpp)
+   File: TextManager  (TextManager.cpp)
+   File: TagManager  (TagManager.cpp)
+   File: WatchManager  (AI\WatchManager.cpp)
+   File: MaterialManager  (MaterialManager.h)
+   File: DrawManager  (DrawManager.cpp)
+   }  # Group: System Objects
+
+Group: Game Objects  {
+
+   File: Map  (Map.h)
+   File: LayerManager  (LayerManager.cpp)
+   File: Tile  (TileBindings.cpp)
+   File: TilePic  (Tile.cpp)
+   File: Entity  (EntityBindings.cpp)
+
+   Group: Entity Related Objects  {
+
+      File: BrainManager  (BrainManager.cpp)
+      File: GoalManager  (AI\Goal_Think.cpp)
+      File: DataManager  (DataManager.cpp)
+      }  # Group: Entity Related Objects
+
+   File: SpecialEntity  (BaseGameEntity.cpp)
+   }  # Group: Game Objects
+
+Group: Simple Objects  {
+
+   File: Math Objects  (no auto-title, VectorBindings.cpp)
+   File: Color  (MiscClassBindings.cpp)
+   File: CameraSetting  (CameraSetting.cpp)
+   File: TileList  (ListBindings.cpp)
+   File: LayerList  (LayerManager.h)
+   File: Tag  (TagManager.h)
+   File: Zone  (MovingEntity.h)
+   File: Joystick  (Joystick.cpp)
+   File: Material  (Material.h)
+   }  # Group: Simple Objects
+
+Group: Effect Objects  {
+
+   File: Particle  (Particle.cpp)
+   File: MotionController  (MotionController.cpp)
+   File: EffectBase  (EffectBase.cpp)
+   File: EffectExplosion  (EffectExplosion.cpp)
+   }  # Group: Effect Objects
+
+Group: Brains  {
+
+   File: StandardBase  (BrainTopBase.cpp)
+   File: Bob  (BrainBob.cpp)
+   File: ColorFade  (BrainColorFade.cpp)
+   File: ColorFlash  (BrainColorFlash.cpp)
+   File: FadeIn  (BrainFadeIn.cpp)
+   File: FadeOutAndDelete  (BrainFadeOutAndDelete.cpp)
+   File: Shake  (BrainShake.cpp)
+   File: Scale  (BrainScale.cpp)
+   File: ForceVisual  (BrainForceVisual.cpp)
+   }  # Group: Brains
+
+Group: States  {
+
+   File: Idle  (StateTopIdle.cpp)
+   File: Walk  (StateTopWalk.cpp)
+   File: Attack  (StateTopAttack.cpp)
+   File: Pain  (StatePain.cpp)
+   File: Frozen  (StateFrozen.cpp)
+   File: Die  (StateDie.cpp)
+   File: Attack2  (StateAttack2.cpp)
+   File: Jump  (StateJump.cpp)
+   File: Run  (StateRun.cpp)
+   File: Special1  (StateSpecial1.cpp)
+   File: Turn  (StateTurn.cpp)
+   }  # Group: States
+
+File: Global Functions  (GlobalScriptFunctionBindings.cpp)
+File: About Visual Profiles  (VisualProfile.cpp)
+File: Known Issues  (KnownIssues.cpp)
+
+Group: Index  {
+
+   Index: Everything
+   Constant Index: Constants
+   Function Index: Functions
+   Object Index: Objects
+   Variable Index: Variables
+   }  # Group: Index
+

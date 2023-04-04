@@ -1,0 +1,22 @@
+//Stuff for the barrel breaking
+
+<resources>
+	
+		<profile name="barrel">
+			<anim state="break" spritename="break" mirrorx="no" x="-42" y="-40"/>
+			<anim state="broken" spritename="broken" mirrorx="no" x="-42" y="-36"/>
+		</profile>
+		
+		<sprite name="break">
+			<image fileseq="BAREL-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-42" y="-40"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="70"/>
+		</sprite>
+
+		<sprite name="broken">
+			<image file="BAREL-06.BMP" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-42" y="-36"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="70"/>
+		</sprite>
+	
+</resources>

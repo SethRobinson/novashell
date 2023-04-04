@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+	
+  		<sprite name="spin" base_angle="0">
+			<image file="coin_spin/top_coin0000.png" />
+			<image file="coin_spin/top_coin0001.png" />
+			<image file="coin_spin/top_coin0002.png" />
+			<image file="coin_spin/top_coin0003.png" />
+			<image file="coin_spin/top_coin0004.png" />
+			<image file="coin_spin/top_coin0005.png" />
+			<image file="coin_spin/top_coin0006.png" />
+			<image file="coin_spin/top_coin0007.png" />
+			<image file="coin_spin/top_coin0008.png" />
+			<image file="coin_spin/top_coin0009.png" />
+			<translation origin="center" x="0" y="0"/>
+			<rotation origin="center" x="0" y="0"/>
+			<animation pingpong="no" loop="yes" speed="65"/>
+		</sprite>
+		
+  <profile name="top_coin">
+    
+   <anim state="idle_left" spritename="spin" mirrorx="no"/>
+  
+  </profile>
+		
+</resources>

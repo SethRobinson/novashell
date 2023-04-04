@@ -1,0 +1,11 @@
+License
+--------------
+Make anything you want using this and feel free to repackage the .exe for your game if you need to.  It's free
+for personal or commercial use.
+
+To be nice you should mention somewhere Novashell was used and link it and rtsoft.com, but you don't really have to.
+
+This software is provided "as is" without express or implied warranties.
+
+Seth A. Robinson
+www.rtsoft.com

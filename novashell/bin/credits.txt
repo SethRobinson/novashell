@@ -1,0 +1,47 @@
+Programming and design:
+Seth A. Robinson (www.rtsoft.com)
+
+Particle system based on source by:
+Wong Chin Foo (LinearParticle)
+
+Box2D physics by Erin Catto  (www.box2d.org)
+
+Pixel art used in the Top View RPG example created by:
+Daniel Cook (www.lostgarden.com)
+
+
+Additional Art:
+Akiko Robinson
+Erin McCLellan
+
+Music: Kevin MacLeod (incompetech.com) Licensed under Creative Commons "Attribution 3.0" http://creativecommons.org/licenses/by/3.0/
+
+gulp.ogg (with Seth's EQ change): by Oto No Happa http://www.geocities.jp/spacheeg/
+
+Novashell is powered by the Clanlib Game SDK (www.clanlib.org)
+
+Special thanks:
+
+Matt Buckland - For writing Programming Game AI by Example, the BEST AI book out there - some code is based on his
+examples from the book.
+
+Note:  If you wouldn't mind your real name being thanked, just drop me a line and let me know what it is, and I'll add it in addition to your handle!
+
+whisperstorm
+Loken
+Uhfgood
+Ian
+Sphair
+nmerci
+Magnus Norddahl
+ZombieJesus
+harrio
+Harry
+Pleng
+Pekuja
+mikael
+Cobra
+illspirit
+Interference
+bullno1
+

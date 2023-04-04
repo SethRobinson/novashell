@@ -1,0 +1,81 @@
+//Note, you can use the in-game visual profile editor to tweak the x/y offsets, faster than trying to do it in here.
+
+//VisualProfile for the crayon man
+
+<resources>
+	
+	<profile name="crayon">
+    
+		<anim state="pain_left" spritename="pain_left" mirrorx="no" x="3" y="-5"/>
+		<anim state="pain_right" spritename="pain_left" mirrorx="yes" x="-5" y="-5"/>
+
+		<anim state="idle_left" spritename="idle_right" mirrorx="yes" x="-1" y="-7"/>
+		<anim state="idle_right" spritename="idle_right" mirrorx="no" x="1" y="-6"/>
+  
+		<anim state="run_left" spritename="run_right" mirrorx="yes" x="-5" y="-4"/>
+		<anim state="run_right" spritename="run_right" mirrorx="no" x="3" y="-4"/>
+
+		<anim state="jump_left" spritename="jump_right" mirrorx="yes" x="-3" y="-6"/>
+		<anim state="jump_right" spritename="jump_right" mirrorx="no" x="0" y="-6"/>
+
+
+		<anim state="climb" spritename="climb" mirrorx="no" x="-2" y="-4"/>
+
+	</profile>
+  
+//Actual sprite data below, that the above profile(s) reference
+//Note that you can load a graphic sequence or individually list each graphic like I do below (I did it both ways just as an example..)
+
+//also note that we only have graphics for one direction, but use the mirrox keyword in the profile definition (above) to fake both dirs	
+	
+	<sprite name="run_right">
+		<image fileseq="run/crayon_run_.tga" leading_zeroes="1"/>
+		<translation origin="center" x="-5" y="-4"/>
+		<animation pingpong="no" loop="yes" speed="60"/>
+	</sprite>
+		
+	<sprite name="pain_left">
+			//here is how you would load each graphic in a bitmap by specifying each filename (smarter to use the fileseq method though)
+			
+			<image file="pain_left/pain_left_0000.png"/>
+			<image file="pain_left/pain_left_0001.png"/>
+			<image file="pain_left/pain_left_0002.png"/>
+			<image file="pain_left/pain_left_0003.png"/>
+			<image file="pain_left/pain_left_0004.png"/>
+			<image file="pain_left/pain_left_0005.png"/>
+			<image file="pain_left/pain_left_0006.png"/>
+			<image file="pain_left/pain_left_0007.png"/>
+			<image file="pain_left/pain_left_0008.png"/>
+
+			<translation origin="center" x="3" y="-5"/>
+			<animation pingpong="no" loop="no" speed="100" on_finish="last_frame"/>
+		</sprite>
+
+		<sprite name="idle_right">
+		<image fileseq="idle/crayon_idle_.tga" leading_zeroes="1"/>
+			<translation origin="center" x="-1" y="-7"/>
+			<animation pingpong="no" loop="yes" speed="150"/>
+		</sprite>
+		
+		<sprite name="climb">
+			<image fileseq="climb/crayon_climb_.png" leading_zeroes="3"/>
+			<translation origin="center" x="-2" y="-4"/>
+			<animation pingpong="no" loop="yes" speed="60"/>
+		</sprite>
+
+<sprite name="jump_right">
+		<image fileseq="jump/crayon_jump.png" leading_zeroes="3"/>
+			<translation origin="center" x="-3" y="-6"/>
+			<animation pingpong="no" loop="no" speed="150" on_finish="last_frame"/>
+		</sprite>
+
+
+//this isnt use by the crayon visual profile, but is loaded for the slash weapon
+
+	<sprite name="slash_right">
+			<image file="slash_right/slash_right_0.png"/>
+			<translation origin="center"/>
+			<animation pingpong="no" loop="no" speed="200"/>
+	</sprite>
+		
+</resources>

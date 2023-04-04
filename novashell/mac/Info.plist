@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>novashell</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>app</string>
+			<key>CFBundleTypeName</key>
+			<string>Novashell World</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>NovashellWorld</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>novazip</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>app</string>
+			<key>CFBundleTypeName</key>
+			<string>Novashell Zipped World</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>NSDocumentClass</key>
+			<string>NovashellZippedWorld</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>novashell</string>
+	<key>CFBundleIconFile</key>
+	<string>app</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.rtsoft.novashell</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>novashell</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>NOVA</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<resources>
+
+	<profile name="turtle">
+		<anim state="walk_left" spritename="walk_right" mirrorx="yes" x="-9" y="-12"/>
+		<anim state="walk_right" spritename="walk_right" mirrorx="no" x="-7" y="-12"/>
+
+		<anim state="die_left" spritename="die" mirrorx="no" x="-7" y="-12"/>
+		<anim state="die_right" spritename="die" mirrorx="yes" x="-9" y="-12"/>
+
+	</profile>
+  
+ 	
+	<sprite name="walk_right">
+		<image file="walk_right.png">
+			<grid size="16,16" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="150"/>
+	</sprite>
+		
+	
+	
+		<sprite name="die">
+			<image file="die_right.png">
+				<grid size="16,16" array="8,1"/>
+				<translation origin="center"/>
+			</image>
+		<animation on_finish="last_frame" pingpong="no" loop="no" speed="400"/>
+		<frame nr="0" speed="3000">
+	</frame>
+	
+</sprite>
+</resources>

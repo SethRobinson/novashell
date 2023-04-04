@@ -1,0 +1,15 @@
+<resources>
+
+	<profile name="slash">
+		<anim state="idle_left" spritename="slash_right" mirrorx="yes" x="-1" y="1"/>
+		<anim state="idle_right" spritename="slash_right" mirrorx="no" x="-1" y="0"/>
+	</profile>
+	
+	<sprite name="slash_right">
+			<image file="slash_right_0.png"/>
+			<translation origin="center"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="200"/>
+	</sprite>
+		
+		
+</resources>

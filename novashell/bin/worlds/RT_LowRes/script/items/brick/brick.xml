@@ -1,0 +1,23 @@
+<resources>
+
+  
+  <profile name="brick">
+    <anim state="normal" spritename="normal" mirrorx="no" x="-8" y="-8"/>
+    <anim state="crumble" spritename="crumble" mirrorx="no" x="-8" y="-8"/>
+  </profile>
+   
+  <sprite name="normal">
+  	<image file="brick.png">
+			<grid size="16,16" array="2,1"/>
+		</image>
+ 		<animation pingpong="no" loop="no" speed="500"/>
+ 	</sprite>
+
+  <sprite name="crumble">
+  	<image file="brick_break.png">
+			<grid size="16,16" array="4,1"/>
+		</image>
+ 		<animation on_finish="blank" pingpong="no" loop="no" speed="100"/>
+ 	</sprite>
+
+</resources>

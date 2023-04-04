@@ -1,0 +1,32 @@
+<resources>
+
+	<profile name="ent_default">
+		<anim state="idle_left" spritename="default" mirrorx="no"/>
+	</profile>
+
+	<profile name="ent_warp_tag">
+		<anim state="idle_left" spritename="warp_tag" mirrorx="no"/>
+	</profile>
+
+	<profile name="waypoint">
+		<anim state="idle_left" spritename="waypoint_sprite" mirrorx="no"/>
+	</profile>
+
+	
+ 	<sprite name="default">
+		<image file="default.png" />
+		<translation origin="center" x="0" y="0"/>
+	</sprite>
+
+	<sprite name="warp_tag">
+		<image file="warp_tag.png"/>
+		<translation origin="center" x="0" y="0"/>
+	</sprite>
+ 
+ 	<sprite name="waypoint_sprite">
+		<image file="waypoint.png"/>
+		<translation origin="center" x="0" y="0"/>
+	</sprite>
+ 
+  
+</resources>

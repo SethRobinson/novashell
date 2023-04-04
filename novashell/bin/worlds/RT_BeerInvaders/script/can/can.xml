@@ -1,0 +1,13 @@
+<resources>
+
+		<sprite name="idle">
+			<image fileseq="art/beer_idle.png" leading_zeroes="3"/>
+			<translation origin="top_left" x="-43" y="-36"/>
+			<animation on_finish="last_frame" pingpong="yes" loop="yes" speed="60"/>
+		</sprite>
+		
+  <profile name="can">
+	   <anim state="idle_left" spritename="idle" mirrorx="no" x="-61" y="-67"/>
+  </profile>
+		
+</resources>

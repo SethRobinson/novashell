@@ -1,0 +1,103 @@
+//Note, you can use the in-game visual profile editor to tweak the translation offsets, faster than trying to do it in here.
+
+<resources>
+	
+	<profile name="woman">
+ 
+		<anim state="idle_left" spritename="idle_left" mirrorx="no" x="1" y="-39"/>
+		<anim state="idle_right" spritename="idle_left" mirrorx="yes" x="-1" y="-39"/>
+		<anim state="idle_up" spritename="idle_up" mirrorx="no" x="2" y="-37"/>
+		<anim state="idle_down" spritename="idle_down" mirrorx="no" x="0" y="-38"/>
+	
+		<anim state="idle_up_left" spritename="idle_up_left" mirrorx="no" x="2" y="-38"/>
+		<anim state="idle_down_left" spritename="idle_down_left" mirrorx="no" x="1" y="-39"/>
+		<anim state="idle_up_right" spritename="idle_up_left" mirrorx="yes" x="-1" y="-37"/>
+		<anim state="idle_down_right" spritename="idle_down_left" mirrorx="yes" x="-2" y="-41"/>
+	
+		
+		<anim state="walk_left" spritename="walk_left" mirrorx="no" x="-1" y="-36"/>
+		<anim state="walk_right" spritename="walk_left" mirrorx="yes" x="0" y="-36"/>
+		<anim state="walk_up" spritename="walk_up" mirrorx="no" x="1" y="-47"/>
+		<anim state="walk_down" spritename="walk_down" mirrorx="no" x="2" y="-41"/>
+		
+		<anim state="walk_up_left" spritename="walk_up_left" mirrorx="no" x="0" y="-35"/>
+		<anim state="walk_down_left" spritename="walk_down_left" mirrorx="no" x="-1" y="-34"/>
+		<anim state="walk_up_right" spritename="walk_up_left" mirrorx="yes" x="1" y="-38"/>
+		<anim state="walk_down_right" spritename="walk_down_left" mirrorx="yes" x="-2" y="-32"/>
+		
+	
+	
+	</profile>
+  
+	<sprite name="idle_down">
+		<image fileseq="art/idle_down_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="yes" loop="yes" speed="150"/>
+	</sprite>
+		
+	<sprite name="idle_up">
+		<image fileseq="art/idle_up_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="yes" loop="yes" speed="150"/>
+	</sprite>
+		
+	<sprite name="idle_left">
+		<image fileseq="art/idle_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="yes" loop="yes" speed="150"/>
+	</sprite>
+
+	<sprite name="idle_up_left">
+		<image fileseq="art/idle_up_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="150"/>
+	</sprite>
+	
+	<sprite name="idle_down_left">
+		<image fileseq="art/idle_down_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="150"/>
+	</sprite>
+
+
+	
+	
+	<sprite name="walk_down">
+		<image fileseq="art/walk_down_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+		
+
+	
+	<sprite name="walk_down">
+		<image fileseq="art/walk_down_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+		
+	<sprite name="walk_up">
+		<image fileseq="art/walk_up_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+		
+	<sprite name="walk_left">
+		<image fileseq="art/walk_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+		
+	<sprite name="walk_up_left">
+		<image fileseq="art/walk_up_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+	
+	<sprite name="walk_down_left">
+		<image fileseq="art/walk_down_left_.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="70"/>
+	</sprite>
+	
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+
+  <profile name="ent_apple">
+    <anim state="idle_left" spritename="apple" mirrorx="no" x="0" y="0"/>
+  </profile>
+
+  <profile name="ent_crate">
+    <anim state="idle_left" spritename="crate" mirrorx="no" x="0" y="0"/>
+  </profile>
+
+  <profile name="ent_barrel">
+    <anim state="idle_left" spritename="barrel" mirrorx="no" x="1" y="0"/>
+  </profile>
+
+  <profile name="ent_brick">
+    <anim state="idle_left" spritename="brick" mirrorx="no" x="0" y="0"/>
+  </profile>
+
+  <profile name="ent_brick_chunk">
+    <anim state="idle_left" spritename="brick_chunk" mirrorx="no"/>
+  </profile>
+
+  <sprite name="apple">
+    <image file="apple.png"/>
+    <translation origin="center" x="0" y="0"/>
+  </sprite>
+
+  <sprite name="barrel">
+    <image file="barrel.png"/>
+    <translation origin="center" x="1" y="0"/>
+  </sprite>
+
+  <sprite name="brick">
+    <image file="brick.png"/>
+    <translation origin="top_left" x="0" y="0"/>
+  </sprite>
+
+ <sprite name="brick_chunk">
+    <image file="brick_chunk.png"/>
+    <translation origin="center" x="0" y="0"/>
+</sprite>
+
+ <sprite name="wood_door">
+    <image file="wood_door.png"/>
+    <translation origin="center" x="0" y="0"/>
+</sprite>
+
+ <sprite name="crate">
+    <image file="crate.png"/>
+    <translation origin="center" x="0" y="0"/>
+ </sprite>
+
+</resources>

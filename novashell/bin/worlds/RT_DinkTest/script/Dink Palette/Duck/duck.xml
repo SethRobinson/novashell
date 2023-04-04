@@ -1,0 +1,65 @@
+
+<resources>
+	
+	<sprite name="idle_up_left">
+			<image file="walk/DK7W-01.BMP" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="1500"/>
+		</sprite>
+		
+		<sprite name="idle_down_left">
+			<image file="walk/DK1W-01.BMP" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="1500"/>
+		</sprite>
+
+		
+		<sprite name="idle_left">
+			<image file="walk/DK4W-01.BMP" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="1500"/>
+		</sprite>
+	
+		<sprite name="walk_up_left">
+			<image fileseq="walk/DK7W-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="120"/>
+		</sprite>
+		
+		<sprite name="walk_down_left">
+			<image fileseq="walk/DK1W-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="120"/>
+		</sprite>
+
+		
+		<sprite name="walk_left">
+			<image fileseq="walk/DK4W-.BMP" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left"/>
+			<animation pingpong="no" loop="yes" speed="120"/>
+		</sprite>
+	
+		
+  <profile name="duck">
+ 
+   <anim state="idle_left" spritename="idle_left" mirrorx="no" x="-17" y="-28"/>
+   <anim state="idle_up_left" spritename="idle_up_left" mirrorx="no" x="-17" y="-27"/>
+   <anim state="idle_down_left" spritename="idle_down_left" mirrorx="no" x="-19" y="-27"/>
+
+   <anim state="idle_right" spritename="idle_left" mirrorx="yes" x="-17" y="-28"/>
+   <anim state="idle_up_right" spritename="idle_up_left" mirrorx="yes" x="-13" y="-27"/>
+   <anim state="idle_down_right" spritename="idle_down_left" mirrorx="yes" x="-14" y="-27"/>
+
+
+   <anim state="walk_left" spritename="walk_left" mirrorx="no" x="-20" y="-27"/>
+   <anim state="walk_up_left" spritename="walk_up_left" mirrorx="no" x="-17" y="-27"/>
+   <anim state="walk_down_left" spritename="walk_down_left" mirrorx="no" x="-19" y="-27"/>
+
+   <anim state="walk_right" spritename="walk_left" mirrorx="yes" x="-16" y="-27"/>
+   <anim state="walk_up_right" spritename="walk_up_left" mirrorx="yes" x="-12" y="-27"/>
+   <anim state="walk_down_right" spritename="walk_down_left" mirrorx="yes" x="-12" y="-27"/>
+
+  
+  </profile>
+		
+</resources>

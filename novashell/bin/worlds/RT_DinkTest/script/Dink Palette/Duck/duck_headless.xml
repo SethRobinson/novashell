@@ -1,0 +1,63 @@
+
+<resources>
+	
+		
+		<sprite name="walk_down_left" base_angle="0">
+			<image fileseq="headless/DKb1x-.bmp" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-20" y="28"/>
+			<rotation origin="center" x="0" y="0"/>
+			<animation pingpong="no" loop="yes" speed="120"/>
+		</sprite>
+
+		
+		<sprite name="walk_up_left" base_angle="0">
+			<image fileseq="headless/DKb1x-.bmp" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-20" y="27"/>
+			<rotation origin="center" x="0" y="0"/>
+			<animation pingpong="no" loop="yes" speed="120"/>
+		</sprite>
+
+//now for the magic flying head
+	
+			<sprite name="head_up_left" base_angle="0">
+			<image fileseq="head/DKH1x-.bmp" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-11" y="25"/>
+			<rotation origin="center" x="0" y="0"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="120"/>
+		</sprite>
+	
+			<sprite name="head_down_left" base_angle="0">
+			<image fileseq="head/DKH1x-.bmp" leading_zeroes="1" transparent_color="255,255,255"/>
+			<translation origin="top_left" x="-11" y="25"/>
+			<rotation origin="center" x="0" y="0"/>
+			<animation on_finish="last_frame" pingpong="no" loop="no" speed="120"/>
+		</sprite>
+		
+		
+  <profile name="duck_headless">
+ 
+   
+   <anim state="walk_up_left" spritename="walk_up_left" mirrorx="no" x="-21" y="-34"/>
+   <anim state="walk_down_left" spritename="walk_down_left" mirrorx="no" x="-21" y="-34"/>
+   <anim state="walk_up_right" spritename="walk_up_left" mirrorx="yes" x="-10" y="-34"/>
+   <anim state="walk_down_right" spritename="walk_up_left" mirrorx="yes" x="-10" y="-34"/>
+
+   <anim state="idle_up_left" spritename="walk_up_left" mirrorx="no" x="-21" y="-34"/>
+   <anim state="idle_down_left" spritename="walk_down_left" mirrorx="no" x="-21" y="-34"/>
+   <anim state="idle_up_right" spritename="walk_up_left" mirrorx="yes" x="-10" y="-35"/>
+   <anim state="idle_down_right" spritename="walk_up_left" mirrorx="yes" x="-10" y="-35"/>
+  
+  </profile>
+
+  <profile name="duck_head">
+ 
+   
+   <anim state="idle_down_left" spritename="head_down_left" mirrorx="no" x="-4" y="-29"/>
+   <anim state="idle_up_left" spritename="head_up_left" mirrorx="no" x="-5" y="-28"/>
+   <anim state="idle_up_right" spritename="head_up_left" mirrorx="yes" x="-11" y="-28"/>
+   <anim state="idle_down_right" spritename="head_down_left" mirrorx="yes" x="-11" y="-28"/>
+  
+  </profile>
+
+		
+</resources>

@@ -1,0 +1,68 @@
+<resources>
+
+	<profile name="robot7">
+		<anim state="idle_left" spritename="idle7_left" mirrorx="no" x="-16" y="-17"/>
+		<anim state="walk_left" spritename="walk7_left" mirrorx="no" x="-16" y="-17"/>
+		<anim state="die_left" spritename="die7_left" mirrorx="no" x="-16" y="-17"/>
+	</profile>
+ 
+ 	<profile name="robot8">
+		<anim state="idle_left" spritename="idle8_left" mirrorx="no" x="-15" y="-17"/>
+		<anim state="walk_left" spritename="walk8_left" mirrorx="no" x="-15" y="-17"/>
+		<anim state="die_left" spritename="die8_left" mirrorx="no" x="-15" y="-17"/>
+	</profile>
+  
+ 	
+	<sprite name="idle7_left">
+		<image file="robot7_idle_down.png">
+			<grid size="32,32" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="500"/>
+	</sprite>
+		
+		
+		<sprite name="walk7_left">
+		<image file="robot7_idle_down.png">
+			<grid size="32,32" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="100"/>
+	</sprite>
+
+<sprite name="idle8_left">
+		<image file="robot8_idle_down.png">
+			<grid size="32,32" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="500"/>
+	</sprite>
+		
+		<sprite name="walk8_left">
+		<image file="robot8_idle_down.png">
+			<grid size="32,32" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="100"/>
+	</sprite>
+	
+	
+<sprite name="die7_left">
+		<image file="robot7_die_down.png">
+			<grid size="32,32" array="4,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation on_finish="last_frame" on_pingpong="no" loop="no" speed="70"/>
+	</sprite>
+		
+	
+<sprite name="die8_left">
+		<image file="robot8_die_down.png">
+			<grid size="32,32" array="4,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation on_finish="last_frame" on_pingpong="no" loop="no" speed="100"/>
+	</sprite>
+
+		
+</resources>

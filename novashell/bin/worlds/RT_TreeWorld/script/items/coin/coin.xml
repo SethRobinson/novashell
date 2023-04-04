@@ -1,0 +1,13 @@
+<resources>
+	
+	<profile name="ent_coin">
+		<anim state="idle_left" spritename="spin" mirrorx="no" x="0" y="0"/>
+	</profile>
+
+	<sprite name="spin">
+		<image fileseq="coin_spin/coin.png" leading_zeroes="3"/>
+		<translation origin="center"/>
+		<animation pingpong="no" loop="yes" speed="65"/>
+	</sprite>
+
+</resources>

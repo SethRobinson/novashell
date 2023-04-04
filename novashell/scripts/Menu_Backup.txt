@@ -1,0 +1,177 @@
+Format: Development Release 02-10-2007 (1.35 base)
+
+
+Title: Novashell Scripting Reference
+
+# You can also add a sub-title to your menu like this:
+# SubTitle: [subtitle]
+
+Footer: &amp;copy;2008 Seth A. Robinson
+Timestamp: Last updated mon day
+#   m     - One or two digit month.  January is "1"
+#   mm    - Always two digit month.  January is "01"
+#   mon   - Short month word.  January is "Jan"
+#   month - Long month word.  January is "January"
+#   d     - One or two digit day.  1 is "1"
+#   dd    - Always two digit day.  1 is "01"
+#   day   - Day with letter extension.  1 is "1st"
+#   yy    - Two digit year.  2006 is "06"
+#   yyyy  - Four digit year.  2006 is "2006"
+#   year  - Four digit year.  2006 is "2006"
+
+
+# --------------------------------------------------------------------------
+# 
+# Cut and paste the lines below to change the order in which your files
+# appear on the menu.  Don't worry about adding or removing files, Natural
+# Docs will take care of that.
+# 
+# You can further organize the menu by grouping the entries.  Add a
+# "Group: [name] {" line to start a group, and add a "}" to end it.
+# 
+# You can add text and web links to the menu by adding "Text: [text]" and
+# "Link: [name] ([URL])" lines, respectively.
+# 
+# The formatting and comments are auto-generated, so don't worry about
+# neatness when editing the file.  Natural Docs will clean it up the next
+# time it is run.  When working with groups, just deal with the braces and
+# forget about the indentation and comments.
+# 
+# --------------------------------------------------------------------------
+
+
+File: Overview  (main.h)
+File: About Visual Profiles  (VisualProfile.cpp)
+
+Group: System Objects  {
+
+   File: App  (main.cpp)
+   File: GameLogic  (GameLogic.cpp)
+   File: MapManager  (MapManager.cpp)
+   File: InputManager  (InputManager.cpp)
+   File: EffectManager  (EffectManager.cpp)
+   File: Camera  (Camera.cpp)
+   File: SoundManager  (VisualResource.cpp)
+   File: TextManager  (TextManager.cpp)
+   File: TagManager  (TagManager.cpp)
+   File: WatchManager  (AI\WatchManager.cpp)
+   File: MaterialManager  (MaterialManager.h)
+   File: Known Issues  (KnownIssues.cpp)
+
+   Group: Box2D  {
+
+      Group: Contrib  {
+
+         Group: Freeglut  {
+
+            File: freeglut_stroke_mono_roman.c  (Box2D\Contrib\freeglut\freeglut_stroke_mono_roman.c)
+            File: freeglut_stroke_roman.c  (Box2D\Contrib\freeglut\freeglut_stroke_roman.c)
+            File: functions declared in this file probably will not be implemented.  (Box2D\Contrib\freeglut\freeglut_videoresize.c)
+            File: functions declared in this file probably will not be implemented.  (Box2D\Contrib\freeglut\freeglut_overlay.c)
+            File: The arrangement of the table below depends on the fact that  (Box2D\Contrib\freeglut\freeglut_cursor.c)
+            }  # Group: Freeglut
+
+         Group: TestBed.Net  {
+
+            File: Program  (Box2D\Contrib\TestBed.Net\Program.cs)
+            File: Settings  (Box2D\Contrib\TestBed.Net\Settings.cs)
+            File: Test  (Box2D\Contrib\TestBed.Net\Test.cs)
+            File: Tests.Bridge  (Box2D\Contrib\TestBed.Net\Tests\Bridge.cs)
+            }  # Group: TestBed.Net
+
+         File: you can change the number of checkers across there sphere in draw_ball  (Box2D\Contrib\glui\glui_rotation.cpp)
+         }  # Group: Contrib
+
+      File: Dynamics\b2Island.cpp  (Box2D\Source\Dynamics\b2Island.cpp)
+      File: we want this predicate without division:  (Box2D\Source\Collision\Shapes\b2PolygonShape.cpp)
+      }  # Group: Box2D
+
+   Group: Chipmunk-4.0.2  {
+
+      File: cpArray is rarely used and will probably go away.  (Chipmunk-4.0.2\src\cpArray.h)
+      File: cpArray is rarely used and will probably go away.  (Chipmunk-4.0.2\src\cpArray.c)
+      File: v_bias and w_bias are used internally for penetration/joint correction.  (Chipmunk-4.0.2\src\cpBody.h)
+      }  # Group: Chipmunk-4.0.2
+
+   }  # Group: System Objects
+
+Group: Game Objects  {
+
+   File: Map  (Map.h)
+   File: LayerManager  (LayerManager.cpp)
+   File: Tile  (TileBindings.cpp)
+   File: TilePic  (Tile.cpp)
+   File: Entity  (EntityBindings.cpp)
+
+   Group: Entity Related Objects  {
+
+      File: BrainManager  (BrainManager.cpp)
+      File: GoalManager  (AI\Goal_Think.cpp)
+      File: DataManager  (DataManager.cpp)
+      }  # Group: Entity Related Objects
+
+   File: SpecialEntity  (BaseGameEntity.cpp)
+   }  # Group: Game Objects
+
+Group: Simple Objects  {
+
+   File: Math Objects  (no auto-title, VectorBindings.cpp)
+   File: Color  (MiscClassBindings.cpp)
+   File: CameraSetting  (CameraSetting.cpp)
+   File: TileList  (ListBindings.cpp)
+   File: LayerList  (LayerManager.h)
+   File: Tag  (TagManager.h)
+   File: Zone  (MovingEntity.h)
+   File: Material  (physics\Contact.h)
+   File: Joystick  (Joystick.cpp)
+   }  # Group: Simple Objects
+
+Group: Effect Objects  {
+
+   File: Particle  (Particle.cpp)
+   File: MotionController  (MotionController.cpp)
+   File: EffectBase  (EffectBase.cpp)
+   File: EffectExplosion  (EffectExplosion.cpp)
+   }  # Group: Effect Objects
+
+File: Global Functions  (GlobalScriptFunctionBindings.cpp)
+
+Group: Brains  {
+
+   File: StandardBase  (BrainTopBase.cpp)
+   File: Bob  (BrainBob.cpp)
+   File: ColorFade  (BrainColorFade.cpp)
+   File: ColorFlash  (BrainColorFlash.cpp)
+   File: FadeIn  (BrainFadeIn.cpp)
+   File: FadeOutAndDelete  (BrainFadeOutAndDelete.cpp)
+   File: Shake  (BrainShake.cpp)
+   File: Scale  (BrainScale.cpp)
+   File: ForceVisual  (BrainForceVisual.cpp)
+   }  # Group: Brains
+
+Group: States  {
+
+   File: Idle  (StateTopIdle.cpp)
+   File: Walk  (StateTopWalk.cpp)
+   File: Attack  (StateTopAttack.cpp)
+   File: Pain  (StatePain.cpp)
+   File: Frozen  (StateFrozen.cpp)
+   File: Die  (StateDie.cpp)
+   File: Attack2  (StateAttack2.cpp)
+   File: Jump  (StateJump.cpp)
+   File: Run  (StateRun.cpp)
+   File: Special1  (StateSpecial1.cpp)
+   File: Turn  (StateTurn.cpp)
+   }  # Group: States
+
+Group: Index  {
+
+   Index: Everything
+   Constant Index: Constants
+   Function Index: Functions
+   Object Index: Objects
+   Variable Index: Variables
+   Class Index: Classes
+   File Index: Files
+   }  # Group: Index
+

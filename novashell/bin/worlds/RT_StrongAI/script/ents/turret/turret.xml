@@ -1,0 +1,28 @@
+<resources>
+
+	<profile name="turret">
+		<anim state="idle_left" spritename="idle_left" mirrorx="no" x="-16" y="-20"/>
+		<anim state="die_left" spritename="die_left" mirrorx="no" x="-16" y="-20"/>
+	</profile>
+ 
+ 	
+ 	
+	<sprite name="idle_left">
+		<image file="turret_idle_down.png">
+			<grid size="32,32" array="2,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation pingpong="no" loop="yes" speed="500"/>
+	</sprite>
+		
+		
+<sprite name="die_left">
+		<image file="turret_die_down.png">
+			<grid size="32,32" array="4,1"/>
+			<translation origin="center"/>
+		</image>
+		<animation on_finish="last_frame" on_pingpong="no" loop="no" speed="100"/>
+	</sprite>
+
+		
+</resources>

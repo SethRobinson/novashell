@@ -1,3 +1,11 @@
 .vs/
 .vscode/
 SharedLib/lib
+BuildCache/
+tempbuild/
+Novashell_Windows.zip
+novashell/bin/game.exe
+novashell/bin/game.pdb
+novashell/bin/packaging/win/game.exe
+novashell/bin/log.txt
+

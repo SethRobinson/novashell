@@ -6,7 +6,7 @@ License:  BSD style attribution, see LICENSE.md
 <a href="https://www.rtsoft.com/novashell/"><img align="top" src="novashell/gitdocs/screenshots.png"></a>
 </p>
 
-# Download the latest [Novashell (Windows, 36 MB)](https://www.rtsoft.com/files/SethsAIToolsWindows.zip)
+# Download the latest [Novashell V0.85 (Windows, 23 MB)](https://www.rtsoft.com/files/Novashell_Windows.zip) 
 
 # What is Novashell?
 

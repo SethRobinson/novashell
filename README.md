@@ -1,6 +1,6 @@
 
 # Novashell Game Creation System
-License:  BSD style attribution, see LICENSE.md
+License:  BSD style attribution, see [LICENSE.md](LICENSE.md)
 
 <p float="left">
 <a href="https://www.rtsoft.com/novashell/"><img align="top" src="novashell/gitdocs/screenshots.png"></a>
@@ -60,7 +60,7 @@ Novashell created by Seth A. Robinson (seth@rtsoft.com) twitter: [@rtsoft](https
 - Particle system based on source by Wong Chin Foo (LinearParticle)
 - Box2D physics by Erin Catto  (www.box2d.org)
 - Pixel art used in the Top View RPG example created by Daniel Cook (www.lostgarden.com)
-- Clanlib V1.0 by Magnus Norddahl, Mark Page, Kenneth Gangstoe and [more](Clanlib-1.0/CREDITS)
+- Clanlib V1.0 by Magnus Norddahl, Mark Page, Kenneth Gangstoe and [more](ClanLib-1.0/CREDITS)
 
 Additional Art:
 - Akiko Robinson

@@ -29,5 +29,3 @@ www: rtsoft.com
 blog: codedojo.com
 twitter: @rtsoft
 
-Please note support libraries that Proton SDK use may use different licenses, look for them in their respective directories.
-

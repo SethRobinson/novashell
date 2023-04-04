@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{ecd680fa-d257-4c22-8a14-9ea9b9e70568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\GL">
+      <UniqueIdentifier>{c129af4f-baf2-4570-b817-148a0ce40bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL files">
+      <UniqueIdentifier>{2cbd6d1d-5c58-4998-b394-06f568415ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL files\WGL files">
+      <UniqueIdentifier>{7e78885a-47c1-4777-ab71-9872625e06b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\gl.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\light_source.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\material.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_state.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_state_data.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_surface.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_window.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_window_description.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\opengl_wrap.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\program_attribute.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\program_object.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\program_uniform.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\setupgl.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\shader_object.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\texture.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\texture_unit.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GL\viewpoint.h">
+      <Filter>API\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\canvas_opengl.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\fillmode.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\gl_state.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\gl_state_checker.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\graphic_context_opengl.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\opengl_state_generic.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\opengl_target.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\opengl_window_description_generic.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\pixel_buffer_opengl_texture.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\surface_target_opengl.h">
+      <Filter>GL files</Filter>
+    </ClInclude>
+    <ClInclude Include="GL\WGL\display_window_opengl.h">
+      <Filter>GL files\WGL files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GL\canvas_opengl.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\gl_state_checker.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\graphic_context_opengl.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\light_source.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_state.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_state_data.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_state_generic.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_surface.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_target.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_window.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\opengl_window_description.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\pixel_buffer_opengl_texture.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\program_attribute.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\program_object.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\program_uniform.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\setupgl.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\shader_object.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\surface_target_opengl.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\texture.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\viewpoint.cpp">
+      <Filter>GL files</Filter>
+    </ClCompile>
+    <ClCompile Include="GL\WGL\display_window_opengl.cpp">
+      <Filter>GL files\WGL files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

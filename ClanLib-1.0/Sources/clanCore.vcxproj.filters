@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{ee314f9b-06d4-448a-9e38-63d0527c4af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core">
+      <UniqueIdentifier>{73426c68-3d3c-4f88-8003-8dc0b27e99b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core\IOData">
+      <UniqueIdentifier>{7a0e7f0e-3c23-4dab-a7c1-2cf4223385cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core\Math">
+      <UniqueIdentifier>{f8fa8cf3-4d7c-4958-9825-6d94f40d431d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core\Resources">
+      <UniqueIdentifier>{30de6dfb-ad8e-492d-bb27-4c3e075a45dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core\System">
+      <UniqueIdentifier>{9626d74d-b04b-4271-9284-b0985bb05db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Core\XML">
+      <UniqueIdentifier>{85ddc4ed-9f41-45a1-bb71-ea564f2960a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files">
+      <UniqueIdentifier>{ade23419-c6a3-4a0b-93e6-9ad321425773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\IOData files">
+      <UniqueIdentifier>{014d12cd-b89f-40f8-8a4d-9d52f041f06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\IOData files\Generic files">
+      <UniqueIdentifier>{af1fa1f6-3832-4772-997c-4922c209be2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\IOData files\Win32 files">
+      <UniqueIdentifier>{f949f30f-5573-47f5-aed2-6605f1606ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\Math files">
+      <UniqueIdentifier>{8dacec7c-4208-4d53-b624-029117814394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\Resources files">
+      <UniqueIdentifier>{4a2bccac-5dc4-4604-abc6-84803a24e401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\System files">
+      <UniqueIdentifier>{306a763f-ffee-4b03-b828-67d9d61223d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\System files\Generic files">
+      <UniqueIdentifier>{b464e053-4462-4d35-894c-4c97d85004ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\System files\Win32 files">
+      <UniqueIdentifier>{9bc0a8cb-ca48-4193-b370-ecf66c0d7807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core files\XML files">
+      <UniqueIdentifier>{1fa1d80f-da99-4262-9cb8-c0abc6cf0122}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\core.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\core_iostream.h">
+      <Filter>API\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\cl_endian.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\datatypes.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\directory.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\directory_scanner.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource_file.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource_memory.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource_provider.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource_provider_file.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\inputsource_zipped.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\outputsource.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\outputsource_file.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\outputsource_memory.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\outputsource_provider.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\outputsource_zipped.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\zip_archive.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\IOData\zip_file_entry.h">
+      <Filter>API\Core\IOData</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\circle.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\cl_vector.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\delauney_triangulator.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\line_math.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\math.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\matrix4x4.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\number_pool.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\origin.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\outline_triangulator.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\point.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\pointset_math.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\quad.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\rect.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\size.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\triangle_math.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Math\vector2.h">
+      <Filter>API\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resource.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resource_manager.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcedata.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcetype_boolean.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcetype_float.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcetype_integer.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcetype_raw.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\Resources\resourcetype_string.h">
+      <Filter>API\Core\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\call_stack.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\cl_assert.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\cl_library.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\clanstring.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\clipboard.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\clonable.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\command_line.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\console_window.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\crash_reporter.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\error.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\event_listener.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\event_trigger.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\keep_alive.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\lazycopyptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\log.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\mutex.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\mutexsharedptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\mutexweakptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\owningptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\setupcore.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\sharedptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\system.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\thread.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\threadfunc_v0.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\threadfunc_v1.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\threadfunc_v2.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\timer.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\System\weakptr.h">
+      <Filter>API\Core\System</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_attr.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_cdata_section.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_character_data.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_comment.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_document.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_document_fragment.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_document_type.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_element.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_entity.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_entity_reference.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_exception.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_implementation.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_named_node_map.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_node.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_node_list.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_notation.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_processing_instruction.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\dom_text.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_token.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_token_load.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_token_save.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_token_string.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_tokenizer.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Core\XML\xml_writer.h">
+      <Filter>API\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\precomp.h">
+      <Filter>Core files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\inputsource_zip_fileentry.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_64_end_of_central_directory_locator.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_64_end_of_central_directory_record.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_archive_generic.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_compression_method.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_digital_signature.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_end_of_central_directory_record.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_file_entry_generic.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_file_header.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_flags.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_local_file_descriptor.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_local_file_header.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\zip_version_attributes.h">
+      <Filter>Core files\IOData files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\Generic\datafile_inputprovider.h">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\Generic\directory_scanner_generic.h">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\Generic\inputsource_memory_generic.h">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\Generic\outputsource_memory_generic.h">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IOData\Win32\directory_scanner_win32.h">
+      <Filter>Core files\IOData files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Math\delauney_triangulator_generic.h">
+      <Filter>Core files\Math files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Math\outline_triangulator_generic.h">
+      <Filter>Core files\Math files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Resources\resource_generic.h">
+      <Filter>Core files\Resources files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Resources\resource_manager_generic.h">
+      <Filter>Core files\Resources files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\call_stack_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\command_line_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\console_window_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\crash_reporter_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\event_listener_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Generic\event_trigger_generic.h">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\crash_reporter_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\event_listener_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\event_trigger_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\init_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\mutex_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Win32\thread_win32.h">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\dom_document_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\dom_named_node_map_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\dom_node_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\xml_token_load_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\xml_token_save_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\xml_tokenizer_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XML\xml_writer_generic.h">
+      <Filter>Core files\XML files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\Core\Math\vector2.inl">
+      <Filter>API\Core\Math</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\core_iostream.cpp">
+      <Filter>Core files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\precomp.cpp">
+      <Filter>Core files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\inputsource_memory.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\inputsource_zip_fileentry.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\outputsource_memory.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_64_end_of_central_directory_locator.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_64_end_of_central_directory_record.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_archive.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_digital_signature.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_end_of_central_directory_record.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_file_entry.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_file_header.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_local_file_descriptor.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\zip_local_file_header.cpp">
+      <Filter>Core files\IOData files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\datafile_inputprovider.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\directory.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\directory_scanner.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\endianess.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\inputsource.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\inputsource_file.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\inputsource_memory_generic.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\inputsource_provider_file.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\inputsource_zipped.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\outputsource.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\outputsource_file.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\outputsource_memory_generic.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Generic\outputsource_zipped.cpp">
+      <Filter>Core files\IOData files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\IOData\Win32\directory_scanner_win32.cpp">
+      <Filter>Core files\IOData files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\cl_vector.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\delauney_triangulator.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\delauney_triangulator_generic.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\line_math.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\matrix4x4.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\number_pool.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\origin.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\outline_triangulator.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\outline_triangulator_generic.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\pointset_math.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\quad.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\rect.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\triangle_math.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Math\vector2.cpp">
+      <Filter>Core files\Math files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resource.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resource_generic.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resource_manager.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resource_manager_generic.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcedata.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcetype_boolean.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcetype_float.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcetype_integer.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcetype_raw.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resourcetype_string.cpp">
+      <Filter>Core files\Resources files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\call_stack.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\cl_assert.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\clanstring.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\clipboard.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\command_line.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\command_line_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\console_window.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\console_window_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\crash_reporter.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\detect_3dnow.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\detect_mmx.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\error.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\event_listener.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\event_listener_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\event_trigger.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\event_trigger_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\keep_alive_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\log.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\setupcore.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Generic\timer_generic.cpp">
+      <Filter>Core files\System files\Generic files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\cl_library.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\crash_reporter_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\event_listener_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\event_trigger_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\init_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\mutex_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Win32\thread_win32.cpp">
+      <Filter>Core files\System files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_attr.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_cdata_section.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_character_data.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_comment.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_document.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_document_fragment.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_document_generic.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_document_type.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_element.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_entity.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_entity_reference.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_exception.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_implementation.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_named_node_map.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_node.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_node_list.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_notation.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_processing_instruction.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\dom_text.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\xml_token_load.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\xml_token_save.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\xml_tokenizer.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XML\xml_writer.cpp">
+      <Filter>Core files\XML files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

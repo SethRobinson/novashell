@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static MT Debug|Win32">
+      <Configuration>Static MT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MT Release|Win32">
+      <Configuration>Static MT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Debug|Win32">
+      <Configuration>Static MTDLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Release|Win32">
+      <Configuration>Static MTDLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{7B93F8C0-04D0-4EEC-9B94-5D978B200AAB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>.\../Debug/clanNetwork-static-mt\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <OutDir>.\../Debug\</OutDir>
+    <IntDir>.\../Debug/clanNetwork-static-mtdll\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>.\../Release/clanNetwork-static-mt\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <OutDir>.\../Release\</OutDir>
+    <IntDir>.\../Release/clanNetwork-static-mtdll\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\../Debug/clanNetwork-static-mt/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanNetwork-static-mt/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mt-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\SharedLib\lib\Clanlib\$(ProjectName)-static-mt-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\../Debug/clanNetwork-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanNetwork-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mtdll-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mtdll-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanNetwork.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\../Release/clanNetwork-static-mt/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanNetwork-static-mt/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mt.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\SharedLib\lib\Clanlib\$(ProjectName)-static-mt.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\../Release/clanNetwork-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanNetwork-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mtdll.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanNetwork-static-mtdll.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanNetwork.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API\network.h" />
+    <ClInclude Include="API\Network\IRC\dcc_download.h" />
+    <ClInclude Include="API\Network\IRC\irc_connection.h" />
+    <ClInclude Include="API\Network\IRC\irc_numerics.h" />
+    <ClInclude Include="API\Network\NetObjects\netobject_client.h" />
+    <ClInclude Include="API\Network\NetObjects\netobject_controller.h" />
+    <ClInclude Include="API\Network\NetObjects\netobject_server.h" />
+    <ClInclude Include="API\Network\NetSession\inputsource_netpacket.h" />
+    <ClInclude Include="API\Network\NetSession\inputsource_netstream.h" />
+    <ClInclude Include="API\Network\NetSession\netcomputer.h" />
+    <ClInclude Include="API\Network\NetSession\netgroup.h" />
+    <ClInclude Include="API\Network\NetSession\netpacket.h" />
+    <ClInclude Include="API\Network\NetSession\netsession.h" />
+    <ClInclude Include="API\Network\NetSession\netstream.h" />
+    <ClInclude Include="API\Network\NetSession\outputsource_netpacket.h" />
+    <ClInclude Include="API\Network\NetSession\outputsource_netstream.h" />
+    <ClInclude Include="API\Network\NetVariables\netvariables.h" />
+    <ClInclude Include="API\Network\setupnetwork.h" />
+    <ClInclude Include="API\Network\Socket\inputsource_socket.h" />
+    <ClInclude Include="API\Network\Socket\ip_address.h" />
+    <ClInclude Include="API\Network\Socket\outputsource_socket.h" />
+    <ClInclude Include="API\Network\Socket\socket.h" />
+    <ClInclude Include="Network\IRC\dcc_download_generic.h" />
+    <ClInclude Include="Network\IRC\irc_connection_generic.h" />
+    <ClInclude Include="Network\NetObjects\netobject_client_generic.h" />
+    <ClInclude Include="Network\NetObjects\netobject_controller_generic.h" />
+    <ClInclude Include="Network\NetObjects\netobject_server_generic.h" />
+    <ClInclude Include="Network\NetSession\inputsource_netpacket_generic.h" />
+    <ClInclude Include="Network\NetSession\netcomputer_generic.h" />
+    <ClInclude Include="Network\NetSession\netpacket_generic.h" />
+    <ClInclude Include="Network\NetSession\netsession_generic.h" />
+    <ClInclude Include="Network\NetSession\netstream_generic.h" />
+    <ClInclude Include="Network\NetSession\outputsource_netpacket_generic.h" />
+    <ClInclude Include="Network\NetVariables\netvariables_generic.h" />
+    <ClInclude Include="Network\Socket\event_trigger_socket.h" />
+    <ClInclude Include="Network\Socket\ip_address_generic.h" />
+    <ClInclude Include="Network\Socket\ip_address_getaddr.h" />
+    <ClInclude Include="Network\Socket\ip_address_getsock.h" />
+    <ClInclude Include="Network\Socket\socket_generic.h" />
+    <ClInclude Include="Network\Socket\socket_select.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Network\IRC\dcc_download.cpp" />
+    <ClCompile Include="Network\IRC\dcc_download_generic.cpp" />
+    <ClCompile Include="Network\IRC\irc_connection.cpp" />
+    <ClCompile Include="Network\IRC\irc_connection_generic.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_client.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_client_generic.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_controller.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_controller_generic.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_server.cpp" />
+    <ClCompile Include="Network\NetObjects\netobject_server_generic.cpp" />
+    <ClCompile Include="Network\NetSession\inputsource_netpacket.cpp" />
+    <ClCompile Include="Network\NetSession\inputsource_netpacket_generic.cpp" />
+    <ClCompile Include="Network\NetSession\inputsource_netstream.cpp" />
+    <ClCompile Include="Network\NetSession\netcomputer.cpp" />
+    <ClCompile Include="Network\NetSession\netcomputer_generic.cpp" />
+    <ClCompile Include="Network\NetSession\netgroup.cpp" />
+    <ClCompile Include="Network\NetSession\netpacket.cpp" />
+    <ClCompile Include="Network\NetSession\netpacket_generic.cpp" />
+    <ClCompile Include="Network\NetSession\netsession.cpp" />
+    <ClCompile Include="Network\NetSession\netsession_generic.cpp" />
+    <ClCompile Include="Network\NetSession\netstream.cpp" />
+    <ClCompile Include="Network\NetSession\netstream_generic.cpp" />
+    <ClCompile Include="Network\NetSession\outputsource_netpacket.cpp" />
+    <ClCompile Include="Network\NetSession\outputsource_netpacket_generic.cpp" />
+    <ClCompile Include="Network\NetSession\outputsource_netstream.cpp" />
+    <ClCompile Include="Network\NetVariables\netvariables.cpp" />
+    <ClCompile Include="Network\setupnetwork_win32.cpp" />
+    <ClCompile Include="Network\Socket\event_trigger_socket.cpp" />
+    <ClCompile Include="Network\Socket\inputsource_socket.cpp" />
+    <ClCompile Include="Network\Socket\ip_address.cpp" />
+    <ClCompile Include="Network\Socket\ip_address_getaddr.cpp" />
+    <ClCompile Include="Network\Socket\ip_address_getsock.cpp" />
+    <ClCompile Include="Network\Socket\outputsource_socket.cpp" />
+    <ClCompile Include="Network\Socket\socket.cpp" />
+    <ClCompile Include="Network\Socket\socket_generic.cpp" />
+    <ClCompile Include="Network\Socket\socket_select.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

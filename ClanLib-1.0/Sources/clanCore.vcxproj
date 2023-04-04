@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static MT Debug|Win32">
+      <Configuration>Static MT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MT Release|Win32">
+      <Configuration>Static MT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Debug|Win32">
+      <Configuration>Static MTDLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Release|Win32">
+      <Configuration>Static MTDLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{6D88EC57-4B69-45F3-99A2-0C951D80B5B7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt-debug</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <OutDir>.\../Debug\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <OutDir>.\../Release\</OutDir>
+    <IntDir>.\../Release/clanCore-static-mtdll\</IntDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Core\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Core\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Debug/clanCore-static-mtdll/clanCore.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Debug/clanCore-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanCore-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanCore-static-mtdll-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanCore-static-mtdll-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanCore.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Core\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Core\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Release/clanCore-static-mtdll/clanCore.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Release/clanCore-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanCore-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanCore-static-mtdll.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanCore-static-mtdll.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API\core.h" />
+    <ClInclude Include="API\Core\core_iostream.h" />
+    <ClInclude Include="API\Core\IOData\cl_endian.h" />
+    <ClInclude Include="API\Core\IOData\datatypes.h" />
+    <ClInclude Include="API\Core\IOData\directory.h" />
+    <ClInclude Include="API\Core\IOData\directory_scanner.h" />
+    <ClInclude Include="API\Core\IOData\inputsource.h" />
+    <ClInclude Include="API\Core\IOData\inputsource_file.h" />
+    <ClInclude Include="API\Core\IOData\inputsource_memory.h" />
+    <ClInclude Include="API\Core\IOData\inputsource_provider.h" />
+    <ClInclude Include="API\Core\IOData\inputsource_provider_file.h" />
+    <ClInclude Include="API\Core\IOData\inputsource_zipped.h" />
+    <ClInclude Include="API\Core\IOData\outputsource.h" />
+    <ClInclude Include="API\Core\IOData\outputsource_file.h" />
+    <ClInclude Include="API\Core\IOData\outputsource_memory.h" />
+    <ClInclude Include="API\Core\IOData\outputsource_provider.h" />
+    <ClInclude Include="API\Core\IOData\outputsource_zipped.h" />
+    <ClInclude Include="API\Core\IOData\zip_archive.h" />
+    <ClInclude Include="API\Core\IOData\zip_file_entry.h" />
+    <ClInclude Include="API\Core\Math\circle.h" />
+    <ClInclude Include="API\Core\Math\cl_vector.h" />
+    <ClInclude Include="API\Core\Math\delauney_triangulator.h" />
+    <ClInclude Include="API\Core\Math\line_math.h" />
+    <ClInclude Include="API\Core\Math\math.h" />
+    <ClInclude Include="API\Core\Math\matrix4x4.h" />
+    <ClInclude Include="API\Core\Math\number_pool.h" />
+    <ClInclude Include="API\Core\Math\origin.h" />
+    <ClInclude Include="API\Core\Math\outline_triangulator.h" />
+    <ClInclude Include="API\Core\Math\point.h" />
+    <ClInclude Include="API\Core\Math\pointset_math.h" />
+    <ClInclude Include="API\Core\Math\quad.h" />
+    <ClInclude Include="API\Core\Math\rect.h" />
+    <ClInclude Include="API\Core\Math\size.h" />
+    <ClInclude Include="API\Core\Math\triangle_math.h" />
+    <ClInclude Include="API\Core\Math\vector2.h" />
+    <ClInclude Include="API\Core\Resources\resource.h" />
+    <ClInclude Include="API\Core\Resources\resourcedata.h" />
+    <ClInclude Include="API\Core\Resources\resourcetype_boolean.h" />
+    <ClInclude Include="API\Core\Resources\resourcetype_float.h" />
+    <ClInclude Include="API\Core\Resources\resourcetype_integer.h" />
+    <ClInclude Include="API\Core\Resources\resourcetype_raw.h" />
+    <ClInclude Include="API\Core\Resources\resourcetype_string.h" />
+    <ClInclude Include="API\Core\Resources\resource_manager.h" />
+    <ClInclude Include="API\Core\System\call_stack.h" />
+    <ClInclude Include="API\Core\System\clanstring.h" />
+    <ClInclude Include="API\Core\System\clipboard.h" />
+    <ClInclude Include="API\Core\System\clonable.h" />
+    <ClInclude Include="API\Core\System\cl_assert.h" />
+    <ClInclude Include="API\Core\System\cl_library.h" />
+    <ClInclude Include="API\Core\System\command_line.h" />
+    <ClInclude Include="API\Core\System\console_window.h" />
+    <ClInclude Include="API\Core\System\crash_reporter.h" />
+    <ClInclude Include="API\Core\System\error.h" />
+    <ClInclude Include="API\Core\System\event_listener.h" />
+    <ClInclude Include="API\Core\System\event_trigger.h" />
+    <ClInclude Include="API\Core\System\keep_alive.h" />
+    <ClInclude Include="API\Core\System\lazycopyptr.h" />
+    <ClInclude Include="API\Core\System\log.h" />
+    <ClInclude Include="API\Core\System\mutex.h" />
+    <ClInclude Include="API\Core\System\mutexsharedptr.h" />
+    <ClInclude Include="API\Core\System\mutexweakptr.h" />
+    <ClInclude Include="API\Core\System\owningptr.h" />
+    <ClInclude Include="API\Core\System\setupcore.h" />
+    <ClInclude Include="API\Core\System\sharedptr.h" />
+    <ClInclude Include="API\Core\System\system.h" />
+    <ClInclude Include="API\Core\System\thread.h" />
+    <ClInclude Include="API\Core\System\threadfunc_v0.h" />
+    <ClInclude Include="API\Core\System\threadfunc_v1.h" />
+    <ClInclude Include="API\Core\System\threadfunc_v2.h" />
+    <ClInclude Include="API\Core\System\timer.h" />
+    <ClInclude Include="API\Core\System\weakptr.h" />
+    <ClInclude Include="API\Core\XML\dom_attr.h" />
+    <ClInclude Include="API\Core\XML\dom_cdata_section.h" />
+    <ClInclude Include="API\Core\XML\dom_character_data.h" />
+    <ClInclude Include="API\Core\XML\dom_comment.h" />
+    <ClInclude Include="API\Core\XML\dom_document.h" />
+    <ClInclude Include="API\Core\XML\dom_document_fragment.h" />
+    <ClInclude Include="API\Core\XML\dom_document_type.h" />
+    <ClInclude Include="API\Core\XML\dom_element.h" />
+    <ClInclude Include="API\Core\XML\dom_entity.h" />
+    <ClInclude Include="API\Core\XML\dom_entity_reference.h" />
+    <ClInclude Include="API\Core\XML\dom_exception.h" />
+    <ClInclude Include="API\Core\XML\dom_implementation.h" />
+    <ClInclude Include="API\Core\XML\dom_named_node_map.h" />
+    <ClInclude Include="API\Core\XML\dom_node.h" />
+    <ClInclude Include="API\Core\XML\dom_node_list.h" />
+    <ClInclude Include="API\Core\XML\dom_notation.h" />
+    <ClInclude Include="API\Core\XML\dom_processing_instruction.h" />
+    <ClInclude Include="API\Core\XML\dom_text.h" />
+    <ClInclude Include="API\Core\XML\xml_token.h" />
+    <ClInclude Include="API\Core\XML\xml_tokenizer.h" />
+    <ClInclude Include="API\Core\XML\xml_token_load.h" />
+    <ClInclude Include="API\Core\XML\xml_token_save.h" />
+    <ClInclude Include="API\Core\XML\xml_token_string.h" />
+    <ClInclude Include="API\Core\XML\xml_writer.h" />
+    <ClInclude Include="Core\IOData\Generic\datafile_inputprovider.h" />
+    <ClInclude Include="Core\IOData\Generic\directory_scanner_generic.h" />
+    <ClInclude Include="Core\IOData\Generic\inputsource_memory_generic.h" />
+    <ClInclude Include="Core\IOData\Generic\outputsource_memory_generic.h" />
+    <ClInclude Include="Core\IOData\inputsource_zip_fileentry.h" />
+    <ClInclude Include="Core\IOData\Win32\directory_scanner_win32.h" />
+    <ClInclude Include="Core\IOData\zip_64_end_of_central_directory_locator.h" />
+    <ClInclude Include="Core\IOData\zip_64_end_of_central_directory_record.h" />
+    <ClInclude Include="Core\IOData\zip_archive_generic.h" />
+    <ClInclude Include="Core\IOData\zip_compression_method.h" />
+    <ClInclude Include="Core\IOData\zip_digital_signature.h" />
+    <ClInclude Include="Core\IOData\zip_end_of_central_directory_record.h" />
+    <ClInclude Include="Core\IOData\zip_file_entry_generic.h" />
+    <ClInclude Include="Core\IOData\zip_file_header.h" />
+    <ClInclude Include="Core\IOData\zip_flags.h" />
+    <ClInclude Include="Core\IOData\zip_local_file_descriptor.h" />
+    <ClInclude Include="Core\IOData\zip_local_file_header.h" />
+    <ClInclude Include="Core\IOData\zip_version_attributes.h" />
+    <ClInclude Include="Core\Math\delauney_triangulator_generic.h" />
+    <ClInclude Include="Core\Math\outline_triangulator_generic.h" />
+    <ClInclude Include="Core\precomp.h" />
+    <ClInclude Include="Core\Resources\resource_generic.h" />
+    <ClInclude Include="Core\Resources\resource_manager_generic.h" />
+    <ClInclude Include="Core\System\Generic\call_stack_generic.h" />
+    <ClInclude Include="Core\System\Generic\command_line_generic.h" />
+    <ClInclude Include="Core\System\Generic\console_window_generic.h" />
+    <ClInclude Include="Core\System\Generic\crash_reporter_generic.h" />
+    <ClInclude Include="Core\System\Generic\event_listener_generic.h" />
+    <ClInclude Include="Core\System\Generic\event_trigger_generic.h" />
+    <ClInclude Include="Core\System\Win32\crash_reporter_win32.h" />
+    <ClInclude Include="Core\System\Win32\event_listener_win32.h" />
+    <ClInclude Include="Core\System\Win32\event_trigger_win32.h" />
+    <ClInclude Include="Core\System\Win32\init_win32.h" />
+    <ClInclude Include="Core\System\Win32\mutex_win32.h" />
+    <ClInclude Include="Core\System\Win32\thread_win32.h" />
+    <ClInclude Include="Core\XML\dom_document_generic.h" />
+    <ClInclude Include="Core\XML\dom_named_node_map_generic.h" />
+    <ClInclude Include="Core\XML\dom_node_generic.h" />
+    <ClInclude Include="Core\XML\xml_tokenizer_generic.h" />
+    <ClInclude Include="Core\XML\xml_token_load_generic.h" />
+    <ClInclude Include="Core\XML\xml_token_save_generic.h" />
+    <ClInclude Include="Core\XML\xml_writer_generic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="API\Core\Math\vector2.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\core_iostream.cpp" />
+    <ClCompile Include="Core\IOData\Generic\datafile_inputprovider.cpp" />
+    <ClCompile Include="Core\IOData\Generic\directory.cpp" />
+    <ClCompile Include="Core\IOData\Generic\directory_scanner.cpp" />
+    <ClCompile Include="Core\IOData\Generic\endianess.cpp" />
+    <ClCompile Include="Core\IOData\Generic\inputsource.cpp" />
+    <ClCompile Include="Core\IOData\Generic\inputsource_file.cpp" />
+    <ClCompile Include="Core\IOData\Generic\inputsource_memory_generic.cpp" />
+    <ClCompile Include="Core\IOData\Generic\inputsource_provider_file.cpp" />
+    <ClCompile Include="Core\IOData\Generic\inputsource_zipped.cpp" />
+    <ClCompile Include="Core\IOData\Generic\outputsource.cpp" />
+    <ClCompile Include="Core\IOData\Generic\outputsource_file.cpp" />
+    <ClCompile Include="Core\IOData\Generic\outputsource_memory_generic.cpp" />
+    <ClCompile Include="Core\IOData\Generic\outputsource_zipped.cpp" />
+    <ClCompile Include="Core\IOData\inputsource_memory.cpp" />
+    <ClCompile Include="Core\IOData\inputsource_zip_fileentry.cpp" />
+    <ClCompile Include="Core\IOData\outputsource_memory.cpp" />
+    <ClCompile Include="Core\IOData\Win32\directory_scanner_win32.cpp" />
+    <ClCompile Include="Core\IOData\zip_64_end_of_central_directory_locator.cpp" />
+    <ClCompile Include="Core\IOData\zip_64_end_of_central_directory_record.cpp" />
+    <ClCompile Include="Core\IOData\zip_archive.cpp" />
+    <ClCompile Include="Core\IOData\zip_digital_signature.cpp" />
+    <ClCompile Include="Core\IOData\zip_end_of_central_directory_record.cpp" />
+    <ClCompile Include="Core\IOData\zip_file_entry.cpp" />
+    <ClCompile Include="Core\IOData\zip_file_header.cpp" />
+    <ClCompile Include="Core\IOData\zip_local_file_descriptor.cpp" />
+    <ClCompile Include="Core\IOData\zip_local_file_header.cpp" />
+    <ClCompile Include="Core\Math\cl_vector.cpp" />
+    <ClCompile Include="Core\Math\delauney_triangulator.cpp" />
+    <ClCompile Include="Core\Math\delauney_triangulator_generic.cpp" />
+    <ClCompile Include="Core\Math\line_math.cpp" />
+    <ClCompile Include="Core\Math\matrix4x4.cpp" />
+    <ClCompile Include="Core\Math\number_pool.cpp" />
+    <ClCompile Include="Core\Math\origin.cpp" />
+    <ClCompile Include="Core\Math\outline_triangulator.cpp" />
+    <ClCompile Include="Core\Math\outline_triangulator_generic.cpp" />
+    <ClCompile Include="Core\Math\pointset_math.cpp" />
+    <ClCompile Include="Core\Math\quad.cpp" />
+    <ClCompile Include="Core\Math\rect.cpp" />
+    <ClCompile Include="Core\Math\triangle_math.cpp" />
+    <ClCompile Include="Core\Math\vector2.cpp" />
+    <ClCompile Include="Core\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Core\Resources\resource.cpp" />
+    <ClCompile Include="Core\Resources\resourcedata.cpp" />
+    <ClCompile Include="Core\Resources\resourcetype_boolean.cpp" />
+    <ClCompile Include="Core\Resources\resourcetype_float.cpp" />
+    <ClCompile Include="Core\Resources\resourcetype_integer.cpp" />
+    <ClCompile Include="Core\Resources\resourcetype_raw.cpp" />
+    <ClCompile Include="Core\Resources\resourcetype_string.cpp" />
+    <ClCompile Include="Core\Resources\resource_generic.cpp" />
+    <ClCompile Include="Core\Resources\resource_manager.cpp" />
+    <ClCompile Include="Core\Resources\resource_manager_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\call_stack.cpp" />
+    <ClCompile Include="Core\System\Generic\clanstring.cpp" />
+    <ClCompile Include="Core\System\Generic\clipboard.cpp" />
+    <ClCompile Include="Core\System\Generic\cl_assert.cpp" />
+    <ClCompile Include="Core\System\Generic\command_line.cpp" />
+    <ClCompile Include="Core\System\Generic\command_line_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\console_window.cpp" />
+    <ClCompile Include="Core\System\Generic\console_window_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\crash_reporter.cpp" />
+    <ClCompile Include="Core\System\Generic\detect_3dnow.cpp" />
+    <ClCompile Include="Core\System\Generic\detect_mmx.cpp" />
+    <ClCompile Include="Core\System\Generic\error.cpp" />
+    <ClCompile Include="Core\System\Generic\event_listener.cpp" />
+    <ClCompile Include="Core\System\Generic\event_listener_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\event_trigger.cpp" />
+    <ClCompile Include="Core\System\Generic\event_trigger_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\keep_alive_generic.cpp" />
+    <ClCompile Include="Core\System\Generic\log.cpp" />
+    <ClCompile Include="Core\System\Generic\setupcore.cpp" />
+    <ClCompile Include="Core\System\Generic\timer_generic.cpp" />
+    <ClCompile Include="Core\System\Win32\cl_library.cpp" />
+    <ClCompile Include="Core\System\Win32\crash_reporter_win32.cpp" />
+    <ClCompile Include="Core\System\Win32\event_listener_win32.cpp" />
+    <ClCompile Include="Core\System\Win32\event_trigger_win32.cpp" />
+    <ClCompile Include="Core\System\Win32\init_win32.cpp" />
+    <ClCompile Include="Core\System\Win32\mutex_win32.cpp" />
+    <ClCompile Include="Core\System\Win32\thread_win32.cpp" />
+    <ClCompile Include="Core\XML\dom_attr.cpp" />
+    <ClCompile Include="Core\XML\dom_cdata_section.cpp" />
+    <ClCompile Include="Core\XML\dom_character_data.cpp" />
+    <ClCompile Include="Core\XML\dom_comment.cpp" />
+    <ClCompile Include="Core\XML\dom_document.cpp" />
+    <ClCompile Include="Core\XML\dom_document_fragment.cpp" />
+    <ClCompile Include="Core\XML\dom_document_generic.cpp" />
+    <ClCompile Include="Core\XML\dom_document_type.cpp" />
+    <ClCompile Include="Core\XML\dom_element.cpp" />
+    <ClCompile Include="Core\XML\dom_entity.cpp" />
+    <ClCompile Include="Core\XML\dom_entity_reference.cpp" />
+    <ClCompile Include="Core\XML\dom_exception.cpp" />
+    <ClCompile Include="Core\XML\dom_implementation.cpp" />
+    <ClCompile Include="Core\XML\dom_named_node_map.cpp" />
+    <ClCompile Include="Core\XML\dom_node.cpp" />
+    <ClCompile Include="Core\XML\dom_node_list.cpp" />
+    <ClCompile Include="Core\XML\dom_notation.cpp" />
+    <ClCompile Include="Core\XML\dom_processing_instruction.cpp" />
+    <ClCompile Include="Core\XML\dom_text.cpp" />
+    <ClCompile Include="Core\XML\xml_tokenizer.cpp" />
+    <ClCompile Include="Core\XML\xml_token_load.cpp" />
+    <ClCompile Include="Core\XML\xml_token_save.cpp" />
+    <ClCompile Include="Core\XML\xml_writer.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

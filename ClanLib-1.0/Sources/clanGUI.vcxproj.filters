@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{f5422903-617a-48b0-91af-638cc0f98081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\GUI">
+      <UniqueIdentifier>{68eaa51b-a008-4588-9a2f-799a8e8c5c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI files">
+      <UniqueIdentifier>{56d0a113-633c-4998-8339-06f13f2ba972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\gui.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\button.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\checkbox.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component_manager.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component_move_handler.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component_resize_handler.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component_style.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\component_type.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\deck.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\filedialog.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\frame.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\gui_manager.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\image.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\inputbox.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\inputbox_stylebase.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\inputdialog.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\label.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\layout.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\listbox.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\listitem.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\menu.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\menu_item.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\menu_node.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\messagebox.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\progressbar.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\radiobutton.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\radiogroup.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\richedit.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\richedit_paragraph.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\scrollbar.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\setupgui.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\stylemanager.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\treeitem.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\treenode.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\treeview.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUI\window.h">
+      <Filter>API\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\button_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\component_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\component_manager_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\component_type_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\deck_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\default_component_types.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\filedialog_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\frame_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\gui_manager_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\image_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\inputbox_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\inputdialog_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\label_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\layout_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\layout_item.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\listbox_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\menu_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\menu_item_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\menu_node_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\messagebox_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\precomp.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\progressbar_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\radiogroup_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\richedit_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\scrollbar_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\treeitem_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\treenode_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\treeview_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\window_generic.h">
+      <Filter>GUI files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI\button.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\button_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\checkbox.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_manager.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_manager_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_move_handler.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_resize_handler.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\component_type.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\deck.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\deck_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\filedialog.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\filedialog_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\frame.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\frame_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\gui_manager.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\gui_manager_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\image.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\image_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\inputbox.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\inputbox_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\inputbox_stylebase.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\inputdialog.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\inputdialog_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\label.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\label_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\layout.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\layout_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\layout_item.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\listbox.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\listbox_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu_item.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu_item_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu_node.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\menu_node_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\messagebox.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\messagebox_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\precomp.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\progressbar.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\progressbar_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\radiobutton.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\radiogroup.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\radiogroup_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\richedit.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\richedit_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\richedit_paragraph.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\scrollbar.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\scrollbar_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\setupgui.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\stylemanager.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treeitem.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treeitem_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treenode.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treenode_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treeview.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\treeview_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\window.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\window_generic.cpp">
+      <Filter>GUI files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

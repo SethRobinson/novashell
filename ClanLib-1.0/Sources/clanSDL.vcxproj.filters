@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{debe16ba-7f67-4c21-865c-eeeef0175bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\SDL">
+      <UniqueIdentifier>{48496d9c-f6b9-450a-ac4a-c9e4fc7e8dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL files">
+      <UniqueIdentifier>{281c4876-bd1d-4867-979c-e81a43ed9be3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\sdl.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\SDL\setupsdl.h">
+      <Filter>API\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\display_window_sdl.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\graphic_context_sdl.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\input_device_sdljoystick.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\input_device_sdlkeyboard.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\input_device_sdlmouse.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\pixel_buffer_sdl_frame.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\sdl_target.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL\surface_sdl.h">
+      <Filter>SDL files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDL\display_window_sdl.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\graphic_context_sdl.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\input_device_sdljoystick.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\input_device_sdlkeyboard.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\input_device_sdlmouse.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\pixel_buffer_sdl_frame.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\sdl_target.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\setupsdl.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL\surface_sdl.cpp">
+      <Filter>SDL files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

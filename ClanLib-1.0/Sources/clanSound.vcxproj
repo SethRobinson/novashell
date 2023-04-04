@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static MT Debug|Win32">
+      <Configuration>Static MT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MT Release|Win32">
+      <Configuration>Static MT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Debug|Win32">
+      <Configuration>Static MTDLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Release|Win32">
+      <Configuration>Static MTDLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{E148C073-4544-4DD8-9783-2478B63BCCD8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt-debug</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <OutDir>.\../Debug\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <OutDir>.\../Release\</OutDir>
+    <IntDir>.\../Release/clanSound-static-mtdll\</IntDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Sound\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Sound\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Debug/clanSound-static-mtdll/clanSound.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Debug/clanSound-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanSound-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanSound-static-mtdll-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanSound-static-mtdll-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanSound.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Sound\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Sound\precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Release/clanSound-static-mtdll/clanSound.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Release/clanSound-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanSound-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanSound-static-mtdll.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanSound-static-mtdll.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API\sound.h" />
+    <ClInclude Include="API\Sound\cd_drive.h" />
+    <ClInclude Include="API\Sound\setupsound.h" />
+    <ClInclude Include="API\Sound\sound.h" />
+    <ClInclude Include="API\Sound\soundbuffer.h" />
+    <ClInclude Include="API\Sound\soundbuffer_session.h" />
+    <ClInclude Include="API\Sound\soundfilter.h" />
+    <ClInclude Include="API\Sound\SoundFilters\echofilter.h" />
+    <ClInclude Include="API\Sound\SoundFilters\fadefilter.h" />
+    <ClInclude Include="API\Sound\SoundFilters\inverse_echofilter.h" />
+    <ClInclude Include="API\Sound\soundformat.h" />
+    <ClInclude Include="API\Sound\soundoutput.h" />
+    <ClInclude Include="API\Sound\soundoutput_description.h" />
+    <ClInclude Include="API\Sound\soundprovider.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_factory.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_raw.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_recorder.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_type.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_type_register.h" />
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_wave.h" />
+    <ClInclude Include="API\Sound\soundprovider_session.h" />
+    <ClInclude Include="Sound\cd_drive_generic.h" />
+    <ClInclude Include="Sound\precomp.h" />
+    <ClInclude Include="Sound\resourcetype_sample.h" />
+    <ClInclude Include="Sound\soundbuffer_generic.h" />
+    <ClInclude Include="Sound\soundbuffer_session_generic.h" />
+    <ClInclude Include="Sound\SoundFilters\echofilter_generic.h" />
+    <ClInclude Include="Sound\SoundFilters\fadefilter_generic.h" />
+    <ClInclude Include="Sound\SoundFilters\inverse_echofilter_generic.h" />
+    <ClInclude Include="Sound\soundoutput_generic.h" />
+    <ClInclude Include="Sound\SoundProviders\soundprovider_raw_generic.h" />
+    <ClInclude Include="Sound\SoundProviders\soundprovider_raw_session.h" />
+    <ClInclude Include="Sound\SoundProviders\soundprovider_recorder_generic.h" />
+    <ClInclude Include="Sound\SoundProviders\soundprovider_wave_generic.h" />
+    <ClInclude Include="Sound\SoundProviders\soundprovider_wave_session.h" />
+    <ClInclude Include="Sound\SoundProviders\Win32\soundprovider_recorder_directsound.h" />
+    <ClInclude Include="Sound\Win32\soundoutput_directsound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sound\cd_drive.cpp" />
+    <ClCompile Include="Sound\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Sound\resourcetype_sample.cpp" />
+    <ClCompile Include="Sound\setupsound.cpp" />
+    <ClCompile Include="Sound\sound.cpp" />
+    <ClCompile Include="Sound\soundbuffer.cpp" />
+    <ClCompile Include="Sound\soundbuffer_generic.cpp" />
+    <ClCompile Include="Sound\soundbuffer_session.cpp" />
+    <ClCompile Include="Sound\soundbuffer_session_generic.cpp" />
+    <ClCompile Include="Sound\soundfilter.cpp" />
+    <ClCompile Include="Sound\SoundFilters\echofilter_generic.cpp" />
+    <ClCompile Include="Sound\SoundFilters\fadefilter_generic.cpp" />
+    <ClCompile Include="Sound\SoundFilters\inverse_echofilter_generic.cpp" />
+    <ClCompile Include="Sound\soundoutput.cpp" />
+    <ClCompile Include="Sound\soundoutput_description.cpp" />
+    <ClCompile Include="Sound\soundoutput_generic.cpp" />
+    <ClCompile Include="Sound\soundprovider.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_factory.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_raw.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_raw_session.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_recorder.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_type.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_wave.cpp" />
+    <ClCompile Include="Sound\SoundProviders\soundprovider_wave_session.cpp" />
+    <ClCompile Include="Sound\SoundProviders\Win32\soundprovider_recorder_directsound.cpp" />
+    <ClCompile Include="Sound\soundprovider_session.cpp" />
+    <ClCompile Include="Sound\Win32\soundoutput_directsound.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

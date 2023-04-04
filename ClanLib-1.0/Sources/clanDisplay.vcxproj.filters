@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{62060cfc-6e34-4e24-89c0-92f57d2814b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Display">
+      <UniqueIdentifier>{3cd30d48-f264-460b-b744-2915826b7302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Display\Collision">
+      <UniqueIdentifier>{59905e73-7c05-44ea-b491-d6fa4361aad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Display\Providers">
+      <UniqueIdentifier>{ea0f2cef-e1f2-48cd-83d7-9eed84b05728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display files">
+      <UniqueIdentifier>{56294014-082e-4e69-a6a7-f0ab56b43258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display files\Collision files">
+      <UniqueIdentifier>{59352118-894f-4b59-8429-b01d3bc7bfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display files\Providers files">
+      <UniqueIdentifier>{e76dbc1a-a10c-4d8a-aa7d-1d9caabb44cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display files\Win32 files">
+      <UniqueIdentifier>{18cfb9ae-4e9f-4a87-a3a7-4ed091a0b720}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\display.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\blend_func.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\canvas.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\color.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\display.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\display_iostream.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\display_mode.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\display_window.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\display_window_description.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\font.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\frameratecounter.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\glyph_buffer.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\gradient.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\graphic_context.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\input_buffer.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\input_button.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\input_context.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\input_device.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\input_event.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\joystick.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\key_binding.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\keyboard.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\keys.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\mouse.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\palette.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\pixel_buffer.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\pixel_format.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\pixel_format_type.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\rle_surface.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\setupdisplay.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\sprite.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\sprite_description.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\sprite_packer.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\stencil_func.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\surface.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\text_styler.h">
+      <Filter>API\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\collision_outline.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\contour.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_accuracy.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_circle.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_math.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_provider.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_provider_bitmap.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Collision\outline_provider_file.h">
+      <Filter>API\Display\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\bmp_provider.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\dc_buffer.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\jpeg_provider.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\pcx_provider.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\png_provider.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\provider_factory.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\provider_type.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\provider_type_register.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Display\Providers\targa_provider.h">
+      <Filter>API\Display\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\canvas_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\display_mode_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\display_precomp.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\display_target.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\display_window_description_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\display_window_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\font_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\font_target.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\font_target_sprite.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\frameratecounter_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\graphic_context_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\input_buffer_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\input_button_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\input_context_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\input_device_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\key_binding_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\pixel_buffer_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\pixel_buffer_memory.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_collisionoutline.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_font.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_sprite.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_sprite_description.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_surface.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\resourcedata_text_styler.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\sprite_description_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\sprite_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\sprite_packer_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\surface_generic.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\surface_target.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\triangle_params.h">
+      <Filter>Display files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Collision\collision_outline_generic.h">
+      <Filter>Display files\Collision files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Collision\outline_provider_bitmap_generic.h">
+      <Filter>Display files\Collision files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Collision\outline_provider_file_generic.h">
+      <Filter>Display files\Collision files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Providers\bmp_provider_generic.h">
+      <Filter>Display files\Providers files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Providers\jpeg_provider_generic.h">
+      <Filter>Display files\Providers files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Providers\pcx_provider_generic.h">
+      <Filter>Display files\Providers files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Providers\png_provider_generic.h">
+      <Filter>Display files\Providers files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Providers\targa_provider_generic.h">
+      <Filter>Display files\Providers files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Win32\dc_buffer_generic.h">
+      <Filter>Display files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Win32\display_window_win32.h">
+      <Filter>Display files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Win32\input_device_directinput.h">
+      <Filter>Display files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Win32\input_device_win32keyboard.h">
+      <Filter>Display files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Display\Win32\input_device_win32mouse.h">
+      <Filter>Display files\Win32 files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Display\canvas.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\color.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_iostream.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_mode.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_precomp.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_target.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_window.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_window_description.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\display_window_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\font.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\font_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\font_target_sprite.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\frameratecounter.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\glyph_buffer.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\graphic_context.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\graphic_context_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_buffer.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_button.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_button_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_context.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_context_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_device.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_device_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\input_event.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\joystick.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\key_binding.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\keyboard.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\mouse.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\pixel_buffer.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\pixel_buffer_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\pixel_buffer_memory.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\pixel_format.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_collisionoutline.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_font.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_sprite.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_sprite_description.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_surface.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\resourcedata_text_styler.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\setupdisplay.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\sprite.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\sprite_description.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\sprite_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\sprite_packer.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\sprite_packer_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\surface.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\surface_generic.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\surface_target.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\text_styler.cpp">
+      <Filter>Display files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\collision_outline.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\collision_outline_generic.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\outline_math.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\outline_provider_bitmap.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\outline_provider_bitmap_generic.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\outline_provider_file.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Collision\outline_provider_file_generic.cpp">
+      <Filter>Display files\Collision files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\bmp_provider.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\bmp_provider_generic.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\jpeg_provider.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\jpeg_provider_generic.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\pcx_provider.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\pcx_provider_generic.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\png_provider.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\png_provider_generic.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\provider_factory.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\provider_type.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\targa_provider.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Providers\targa_provider_generic.cpp">
+      <Filter>Display files\Providers files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\dc_buffer.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\dc_buffer_generic.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\display_window_win32.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\input_device_directinput.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\input_device_win32keyboard.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Display\Win32\input_device_win32mouse.cpp">
+      <Filter>Display files\Win32 files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

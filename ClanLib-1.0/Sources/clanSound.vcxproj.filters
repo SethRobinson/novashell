@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{4ca7f262-3954-4294-b749-5297c5ae7862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Sound">
+      <UniqueIdentifier>{98b99e49-efa5-4910-aa6f-d81a6aa9e4db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Sound\SoundFilters">
+      <UniqueIdentifier>{082b1ec2-3a9b-453f-8665-e51a198548ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Sound\SoundProviders">
+      <UniqueIdentifier>{e28aa02e-85ff-4c8e-9211-dfeb604a0e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound files">
+      <UniqueIdentifier>{9968a1c0-030d-4fa7-b630-813e3106a05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound files\SoundFilters files">
+      <UniqueIdentifier>{9ca6ff45-8362-458d-bff2-5f45eddef704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound files\SoundProviders files">
+      <UniqueIdentifier>{84b66bda-f714-4941-9ede-ba33c1ccead8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound files\SoundProviders files\Win32 files">
+      <UniqueIdentifier>{ab8c4adc-b1f6-494b-bd28-94b0c0b16499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound files\Win32 files">
+      <UniqueIdentifier>{5b56674d-b4dd-4c02-9ad6-ccc71aa42b0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\sound.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\cd_drive.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\setupsound.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\sound.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundbuffer.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundbuffer_session.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundfilter.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundformat.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundoutput.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundoutput_description.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundprovider.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\soundprovider_session.h">
+      <Filter>API\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundFilters\echofilter.h">
+      <Filter>API\Sound\SoundFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundFilters\fadefilter.h">
+      <Filter>API\Sound\SoundFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundFilters\inverse_echofilter.h">
+      <Filter>API\Sound\SoundFilters</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_factory.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_raw.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_recorder.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_type.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_type_register.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Sound\SoundProviders\soundprovider_wave.h">
+      <Filter>API\Sound\SoundProviders</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\cd_drive_generic.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\precomp.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\resourcetype_sample.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\soundbuffer_generic.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\soundbuffer_session_generic.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\soundoutput_generic.h">
+      <Filter>Sound files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundFilters\echofilter_generic.h">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundFilters\fadefilter_generic.h">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundFilters\inverse_echofilter_generic.h">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\soundprovider_raw_generic.h">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\soundprovider_raw_session.h">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\soundprovider_recorder_generic.h">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\soundprovider_wave_generic.h">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\soundprovider_wave_session.h">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundProviders\Win32\soundprovider_recorder_directsound.h">
+      <Filter>Sound files\SoundProviders files\Win32 files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Win32\soundoutput_directsound.h">
+      <Filter>Sound files\Win32 files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sound\cd_drive.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\precomp.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\resourcetype_sample.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\setupsound.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\sound.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundbuffer.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundbuffer_generic.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundbuffer_session.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundbuffer_session_generic.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundfilter.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundoutput.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundoutput_description.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundoutput_generic.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundprovider.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\soundprovider_session.cpp">
+      <Filter>Sound files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundFilters\echofilter_generic.cpp">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundFilters\fadefilter_generic.cpp">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundFilters\inverse_echofilter_generic.cpp">
+      <Filter>Sound files\SoundFilters files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_factory.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_raw.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_raw_session.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_recorder.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_type.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_wave.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\soundprovider_wave_session.cpp">
+      <Filter>Sound files\SoundProviders files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundProviders\Win32\soundprovider_recorder_directsound.cpp">
+      <Filter>Sound files\SoundProviders files\Win32 files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Win32\soundoutput_directsound.cpp">
+      <Filter>Sound files\Win32 files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

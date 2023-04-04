@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{63801a28-bd1d-4c35-9b52-fbc192c85bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Signals">
+      <UniqueIdentifier>{8ebcf6ae-df8c-4fde-b423-a77d6e7430e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Signals files">
+      <UniqueIdentifier>{51934921-bc29-4d1c-9f72-c6a556cb3793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\signals.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v0.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v1.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v2.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v3.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v4.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\signal_v5.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_container.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_generic.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v0.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v1.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v2.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v3.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v4.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slot_v5.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slotbuffer_v0.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Signals\slotbuffer_v1.h">
+      <Filter>API\Signals</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Signals\slot.cpp">
+      <Filter>Signals files</Filter>
+    </ClCompile>
+    <ClCompile Include="Signals\slot_generic.cpp">
+      <Filter>Signals files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

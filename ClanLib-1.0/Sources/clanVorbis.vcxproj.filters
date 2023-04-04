@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{433aac94-6086-402f-8b0e-08bcf7fcf884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Vorbis">
+      <UniqueIdentifier>{94f6f959-ad79-46b3-a449-445a1aef232a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vorbis files">
+      <UniqueIdentifier>{e76ebefc-0721-44b1-99df-0d9735afeec2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\vorbis.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Vorbis\setupvorbis.h">
+      <Filter>API\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Vorbis\soundprovider_vorbis.h">
+      <Filter>API\Vorbis</Filter>
+    </ClInclude>
+    <ClInclude Include="Vorbis\soundprovider_vorbis_generic.h">
+      <Filter>Vorbis files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vorbis\soundprovider_vorbis_session.h">
+      <Filter>Vorbis files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vorbis\setupvorbis.cpp">
+      <Filter>Vorbis files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vorbis\soundprovider_vorbis.cpp">
+      <Filter>Vorbis files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vorbis\soundprovider_vorbis_session.cpp">
+      <Filter>Vorbis files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

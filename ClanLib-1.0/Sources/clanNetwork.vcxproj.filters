@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{26176be4-7cd2-4500-a450-bc28d8074cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network">
+      <UniqueIdentifier>{32cce67f-a57c-4a6f-aec2-6c8a693542c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network\IRC">
+      <UniqueIdentifier>{2736c494-542f-4295-9a2f-e642fdfe7f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network\NetObjects">
+      <UniqueIdentifier>{3d339f10-7751-4bb3-9641-013f30bbd55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network\NetSession">
+      <UniqueIdentifier>{445560ec-5193-4b51-b7e1-44244ff1c4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network\NetVariables">
+      <UniqueIdentifier>{f678c3a4-65bd-4bd7-b934-69995874e159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Network\Socket">
+      <UniqueIdentifier>{dddb276a-1914-4fc5-b41b-cd4730f3f6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files">
+      <UniqueIdentifier>{a5e41b4d-0193-4ac3-9015-d4e314418880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files\IRC files">
+      <UniqueIdentifier>{cf2a8cc3-f493-4592-850e-153995f2c2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files\NetObjects files">
+      <UniqueIdentifier>{98053724-5320-4672-a82f-16e1634a00d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files\NetSession files">
+      <UniqueIdentifier>{b79ed881-06a4-4905-9d7b-c3bf44ace664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files\NetVariables files">
+      <UniqueIdentifier>{b002904e-fe1a-4fa6-9b38-2f1cbd3da255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network files\Socket files">
+      <UniqueIdentifier>{10fcbac6-7e96-4c27-b078-f354fcab6792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\network.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\setupnetwork.h">
+      <Filter>API\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\IRC\dcc_download.h">
+      <Filter>API\Network\IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\IRC\irc_connection.h">
+      <Filter>API\Network\IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\IRC\irc_numerics.h">
+      <Filter>API\Network\IRC</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetObjects\netobject_client.h">
+      <Filter>API\Network\NetObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetObjects\netobject_controller.h">
+      <Filter>API\Network\NetObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetObjects\netobject_server.h">
+      <Filter>API\Network\NetObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\inputsource_netpacket.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\inputsource_netstream.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\netcomputer.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\netgroup.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\netpacket.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\netsession.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\netstream.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\outputsource_netpacket.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetSession\outputsource_netstream.h">
+      <Filter>API\Network\NetSession</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\NetVariables\netvariables.h">
+      <Filter>API\Network\NetVariables</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\Socket\inputsource_socket.h">
+      <Filter>API\Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\Socket\ip_address.h">
+      <Filter>API\Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\Socket\outputsource_socket.h">
+      <Filter>API\Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Network\Socket\socket.h">
+      <Filter>API\Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IRC\dcc_download_generic.h">
+      <Filter>Network files\IRC files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\IRC\irc_connection_generic.h">
+      <Filter>Network files\IRC files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetObjects\netobject_client_generic.h">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetObjects\netobject_controller_generic.h">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetObjects\netobject_server_generic.h">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\inputsource_netpacket_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\netcomputer_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\netpacket_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\netsession_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\netstream_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetSession\outputsource_netpacket_generic.h">
+      <Filter>Network files\NetSession files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetVariables\netvariables_generic.h">
+      <Filter>Network files\NetVariables files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\event_trigger_socket.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\ip_address_generic.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\ip_address_getaddr.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\ip_address_getsock.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\socket_generic.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\socket_select.h">
+      <Filter>Network files\Socket files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Network\setupnetwork_win32.cpp">
+      <Filter>Network files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IRC\dcc_download.cpp">
+      <Filter>Network files\IRC files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IRC\dcc_download_generic.cpp">
+      <Filter>Network files\IRC files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IRC\irc_connection.cpp">
+      <Filter>Network files\IRC files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\IRC\irc_connection_generic.cpp">
+      <Filter>Network files\IRC files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_client.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_client_generic.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_controller.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_controller_generic.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_server.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetObjects\netobject_server_generic.cpp">
+      <Filter>Network files\NetObjects files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\inputsource_netpacket.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\inputsource_netpacket_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\inputsource_netstream.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netcomputer.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netcomputer_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netgroup.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netpacket.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netpacket_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netsession.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netsession_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netstream.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\netstream_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\outputsource_netpacket.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\outputsource_netpacket_generic.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetSession\outputsource_netstream.cpp">
+      <Filter>Network files\NetSession files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetVariables\netvariables.cpp">
+      <Filter>Network files\NetVariables files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\event_trigger_socket.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\inputsource_socket.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\ip_address.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\ip_address_getaddr.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\ip_address_getsock.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\outputsource_socket.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\socket.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\socket_generic.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket\socket_select.cpp">
+      <Filter>Network files\Socket files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

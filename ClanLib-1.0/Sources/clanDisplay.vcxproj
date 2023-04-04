@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static MT Debug|Win32">
+      <Configuration>Static MT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MT Release|Win32">
+      <Configuration>Static MT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Debug|Win32">
+      <Configuration>Static MTDLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Release|Win32">
+      <Configuration>Static MTDLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{975AC3AB-1EC8-4A37-B136-7234981396B2}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt-debug</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <OutDir>.\../Debug\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <OutDir>.\../Release\</OutDir>
+    <IntDir>.\../Release/clanDisplay-static-mtdll\</IntDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>API;.;..\..\SharedLib\include;libpng;..\..\SharedLib\libjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Display\display_precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Display\display_precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Debug/clanDisplay-static-mtdll/clanDisplay.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Debug/clanDisplay-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanDisplay-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanDisplay-static-mtdll-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanDisplay-static-mtdll-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanDisplay.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;libpng;..\..\SharedLib\libjpeg;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Display\display_precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Display\display_precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Release/clanDisplay-static-mtdll/clanDisplay.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Release/clanDisplay-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanDisplay-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanDisplay-static-mtdll.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanDisplay-static-mtdll.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API\display.h" />
+    <ClInclude Include="API\Display\blend_func.h" />
+    <ClInclude Include="API\Display\canvas.h" />
+    <ClInclude Include="API\Display\Collision\collision_outline.h" />
+    <ClInclude Include="API\Display\Collision\contour.h" />
+    <ClInclude Include="API\Display\Collision\outline_accuracy.h" />
+    <ClInclude Include="API\Display\Collision\outline_circle.h" />
+    <ClInclude Include="API\Display\Collision\outline_math.h" />
+    <ClInclude Include="API\Display\Collision\outline_provider.h" />
+    <ClInclude Include="API\Display\Collision\outline_provider_bitmap.h" />
+    <ClInclude Include="API\Display\Collision\outline_provider_file.h" />
+    <ClInclude Include="API\Display\color.h" />
+    <ClInclude Include="API\Display\display.h" />
+    <ClInclude Include="API\Display\display_iostream.h" />
+    <ClInclude Include="API\Display\display_mode.h" />
+    <ClInclude Include="API\Display\display_window.h" />
+    <ClInclude Include="API\Display\display_window_description.h" />
+    <ClInclude Include="API\Display\font.h" />
+    <ClInclude Include="API\Display\frameratecounter.h" />
+    <ClInclude Include="API\Display\glyph_buffer.h" />
+    <ClInclude Include="API\Display\gradient.h" />
+    <ClInclude Include="API\Display\graphic_context.h" />
+    <ClInclude Include="API\Display\input_buffer.h" />
+    <ClInclude Include="API\Display\input_button.h" />
+    <ClInclude Include="API\Display\input_context.h" />
+    <ClInclude Include="API\Display\input_device.h" />
+    <ClInclude Include="API\Display\input_event.h" />
+    <ClInclude Include="API\Display\joystick.h" />
+    <ClInclude Include="API\Display\keyboard.h" />
+    <ClInclude Include="API\Display\keys.h" />
+    <ClInclude Include="API\Display\key_binding.h" />
+    <ClInclude Include="API\Display\mouse.h" />
+    <ClInclude Include="API\Display\palette.h" />
+    <ClInclude Include="API\Display\pixel_buffer.h" />
+    <ClInclude Include="API\Display\pixel_format.h" />
+    <ClInclude Include="API\Display\pixel_format_type.h" />
+    <ClInclude Include="API\Display\Providers\bmp_provider.h" />
+    <ClInclude Include="API\Display\Providers\dc_buffer.h" />
+    <ClInclude Include="API\Display\Providers\jpeg_provider.h" />
+    <ClInclude Include="API\Display\Providers\pcx_provider.h" />
+    <ClInclude Include="API\Display\Providers\png_provider.h" />
+    <ClInclude Include="API\Display\Providers\provider_factory.h" />
+    <ClInclude Include="API\Display\Providers\provider_type.h" />
+    <ClInclude Include="API\Display\Providers\provider_type_register.h" />
+    <ClInclude Include="API\Display\Providers\targa_provider.h" />
+    <ClInclude Include="API\Display\rle_surface.h" />
+    <ClInclude Include="API\Display\setupdisplay.h" />
+    <ClInclude Include="API\Display\sprite.h" />
+    <ClInclude Include="API\Display\sprite_description.h" />
+    <ClInclude Include="API\Display\sprite_packer.h" />
+    <ClInclude Include="API\Display\stencil_func.h" />
+    <ClInclude Include="API\Display\surface.h" />
+    <ClInclude Include="API\Display\text_styler.h" />
+    <ClInclude Include="Display\canvas_generic.h" />
+    <ClInclude Include="Display\Collision\collision_outline_generic.h" />
+    <ClInclude Include="Display\Collision\outline_provider_bitmap_generic.h" />
+    <ClInclude Include="Display\Collision\outline_provider_file_generic.h" />
+    <ClInclude Include="Display\display_mode_generic.h" />
+    <ClInclude Include="Display\display_precomp.h" />
+    <ClInclude Include="Display\display_target.h" />
+    <ClInclude Include="Display\display_window_description_generic.h" />
+    <ClInclude Include="Display\display_window_generic.h" />
+    <ClInclude Include="Display\font_generic.h" />
+    <ClInclude Include="Display\font_target.h" />
+    <ClInclude Include="Display\font_target_sprite.h" />
+    <ClInclude Include="Display\frameratecounter_generic.h" />
+    <ClInclude Include="Display\graphic_context_generic.h" />
+    <ClInclude Include="Display\input_buffer_generic.h" />
+    <ClInclude Include="Display\input_button_generic.h" />
+    <ClInclude Include="Display\input_context_generic.h" />
+    <ClInclude Include="Display\input_device_generic.h" />
+    <ClInclude Include="Display\key_binding_generic.h" />
+    <ClInclude Include="Display\pixel_buffer_generic.h" />
+    <ClInclude Include="Display\pixel_buffer_memory.h" />
+    <ClInclude Include="Display\Providers\bmp_provider_generic.h" />
+    <ClInclude Include="Display\Providers\jpeg_provider_generic.h" />
+    <ClInclude Include="Display\Providers\pcx_provider_generic.h" />
+    <ClInclude Include="Display\Providers\png_provider_generic.h" />
+    <ClInclude Include="Display\Providers\targa_provider_generic.h" />
+    <ClInclude Include="Display\resourcedata_collisionoutline.h" />
+    <ClInclude Include="Display\resourcedata_font.h" />
+    <ClInclude Include="Display\resourcedata_sprite.h" />
+    <ClInclude Include="Display\resourcedata_sprite_description.h" />
+    <ClInclude Include="Display\resourcedata_surface.h" />
+    <ClInclude Include="Display\resourcedata_text_styler.h" />
+    <ClInclude Include="Display\sprite_description_generic.h" />
+    <ClInclude Include="Display\sprite_generic.h" />
+    <ClInclude Include="Display\sprite_packer_generic.h" />
+    <ClInclude Include="Display\surface_generic.h" />
+    <ClInclude Include="Display\surface_target.h" />
+    <ClInclude Include="Display\triangle_params.h" />
+    <ClInclude Include="Display\Win32\dc_buffer_generic.h" />
+    <ClInclude Include="Display\Win32\display_window_win32.h" />
+    <ClInclude Include="Display\Win32\input_device_directinput.h" />
+    <ClInclude Include="Display\Win32\input_device_win32keyboard.h" />
+    <ClInclude Include="Display\Win32\input_device_win32mouse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Display\canvas.cpp" />
+    <ClCompile Include="Display\Collision\collision_outline.cpp" />
+    <ClCompile Include="Display\Collision\collision_outline_generic.cpp" />
+    <ClCompile Include="Display\Collision\outline_math.cpp" />
+    <ClCompile Include="Display\Collision\outline_provider_bitmap.cpp" />
+    <ClCompile Include="Display\Collision\outline_provider_bitmap_generic.cpp" />
+    <ClCompile Include="Display\Collision\outline_provider_file.cpp" />
+    <ClCompile Include="Display\Collision\outline_provider_file_generic.cpp" />
+    <ClCompile Include="Display\color.cpp" />
+    <ClCompile Include="Display\display.cpp" />
+    <ClCompile Include="Display\display_iostream.cpp" />
+    <ClCompile Include="Display\display_mode.cpp" />
+    <ClCompile Include="Display\display_precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Display\display_target.cpp" />
+    <ClCompile Include="Display\display_window.cpp" />
+    <ClCompile Include="Display\display_window_description.cpp" />
+    <ClCompile Include="Display\display_window_generic.cpp" />
+    <ClCompile Include="Display\font.cpp" />
+    <ClCompile Include="Display\font_generic.cpp" />
+    <ClCompile Include="Display\font_target_sprite.cpp" />
+    <ClCompile Include="Display\frameratecounter.cpp" />
+    <ClCompile Include="Display\glyph_buffer.cpp" />
+    <ClCompile Include="Display\graphic_context.cpp" />
+    <ClCompile Include="Display\graphic_context_generic.cpp" />
+    <ClCompile Include="Display\input_buffer.cpp" />
+    <ClCompile Include="Display\input_button.cpp" />
+    <ClCompile Include="Display\input_button_generic.cpp" />
+    <ClCompile Include="Display\input_context.cpp" />
+    <ClCompile Include="Display\input_context_generic.cpp" />
+    <ClCompile Include="Display\input_device.cpp" />
+    <ClCompile Include="Display\input_device_generic.cpp" />
+    <ClCompile Include="Display\input_event.cpp" />
+    <ClCompile Include="Display\joystick.cpp" />
+    <ClCompile Include="Display\keyboard.cpp" />
+    <ClCompile Include="Display\key_binding.cpp" />
+    <ClCompile Include="Display\mouse.cpp" />
+    <ClCompile Include="Display\pixel_buffer.cpp" />
+    <ClCompile Include="Display\pixel_buffer_generic.cpp" />
+    <ClCompile Include="Display\pixel_buffer_memory.cpp" />
+    <ClCompile Include="Display\pixel_format.cpp" />
+    <ClCompile Include="Display\Providers\bmp_provider.cpp" />
+    <ClCompile Include="Display\Providers\bmp_provider_generic.cpp" />
+    <ClCompile Include="Display\Providers\jpeg_provider.cpp" />
+    <ClCompile Include="Display\Providers\jpeg_provider_generic.cpp" />
+    <ClCompile Include="Display\Providers\pcx_provider.cpp" />
+    <ClCompile Include="Display\Providers\pcx_provider_generic.cpp" />
+    <ClCompile Include="Display\Providers\png_provider.cpp" />
+    <ClCompile Include="Display\Providers\png_provider_generic.cpp" />
+    <ClCompile Include="Display\Providers\provider_factory.cpp" />
+    <ClCompile Include="Display\Providers\provider_type.cpp" />
+    <ClCompile Include="Display\Providers\targa_provider.cpp" />
+    <ClCompile Include="Display\Providers\targa_provider_generic.cpp" />
+    <ClCompile Include="Display\resourcedata_collisionoutline.cpp" />
+    <ClCompile Include="Display\resourcedata_font.cpp" />
+    <ClCompile Include="Display\resourcedata_sprite.cpp" />
+    <ClCompile Include="Display\resourcedata_sprite_description.cpp" />
+    <ClCompile Include="Display\resourcedata_surface.cpp" />
+    <ClCompile Include="Display\resourcedata_text_styler.cpp" />
+    <ClCompile Include="Display\setupdisplay.cpp" />
+    <ClCompile Include="Display\sprite.cpp" />
+    <ClCompile Include="Display\sprite_description.cpp" />
+    <ClCompile Include="Display\sprite_generic.cpp" />
+    <ClCompile Include="Display\sprite_packer.cpp" />
+    <ClCompile Include="Display\sprite_packer_generic.cpp" />
+    <ClCompile Include="Display\surface.cpp" />
+    <ClCompile Include="Display\surface_generic.cpp" />
+    <ClCompile Include="Display\surface_target.cpp" />
+    <ClCompile Include="Display\text_styler.cpp" />
+    <ClCompile Include="Display\Win32\dc_buffer.cpp" />
+    <ClCompile Include="Display\Win32\dc_buffer_generic.cpp" />
+    <ClCompile Include="Display\Win32\display_window_win32.cpp" />
+    <ClCompile Include="Display\Win32\input_device_directinput.cpp" />
+    <ClCompile Include="Display\Win32\input_device_win32keyboard.cpp" />
+    <ClCompile Include="Display\Win32\input_device_win32mouse.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

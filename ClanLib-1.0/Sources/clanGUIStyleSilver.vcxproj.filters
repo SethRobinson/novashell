@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{1350c724-badd-4695-bc1e-3c4054b6adbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\GUIStyleSilver">
+      <UniqueIdentifier>{150ca812-80a2-435f-a089-e0b694c1c5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIStyleSilver files">
+      <UniqueIdentifier>{aae6de7e-f8bc-4110-b425-5b3761a3bf6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\guistylesilver.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\button_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\checkbox_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\frame_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\image_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\inputbox_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\label_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\listbox_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\menu_item_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\menu_node_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\menu_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\progressbar_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\radiobutton_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\richedit_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\scrollbar_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\stylemanager_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\treeitem_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\treeview_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+    <ClInclude Include="API\GUIStyleSilver\window_silver.h">
+      <Filter>API\GUIStyleSilver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUIStyleSilver\button_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\checkbox_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\frame_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\image_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\inputbox_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\label_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\listbox_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\menu_item_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\menu_node_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\menu_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\progressbar_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\radiobutton_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\richedit_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\scrollbar_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\stylemanager_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\treeitem_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\treeview_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIStyleSilver\window_silver.cpp">
+      <Filter>GUIStyleSilver files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

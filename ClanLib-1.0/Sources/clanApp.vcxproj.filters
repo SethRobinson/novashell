@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="API">
+      <UniqueIdentifier>{84afd32c-4c51-4a85-887e-bac42b000493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Application">
+      <UniqueIdentifier>{d292daaf-7901-4aaf-a544-438faab40d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application files">
+      <UniqueIdentifier>{ebe639e0-74b6-4367-b607-3bc68b39c637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application files\Win32 files">
+      <UniqueIdentifier>{e6971ac2-6d37-4aa2-b8fa-646eb6cff210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API\application.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="API\Application\clanapp.h">
+      <Filter>API\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Win32\clanapp.cpp">
+      <Filter>Application files\Win32 files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

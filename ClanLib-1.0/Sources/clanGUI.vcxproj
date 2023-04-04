@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static MT Debug|Win32">
+      <Configuration>Static MT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MT Release|Win32">
+      <Configuration>Static MT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Debug|Win32">
+      <Configuration>Static MTDLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MTDLL Release|Win32">
+      <Configuration>Static MTDLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{3056DDEB-130B-44E3-86C8-39076C462403}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt-debug</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <OutDir>.\../Debug\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <OutDir>..\..\SharedLib\lib\Clanlib\</OutDir>
+    <IntDir>$(SolutionDir)\BuildCache\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetName>$(ProjectName)-static-mt</TargetName>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <OutDir>.\../Release\</OutDir>
+    <IntDir>.\../Release/clanGUI-static-mtdll\</IntDir>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Debug/clanGUI-static-mtdll/clanGUI.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Debug/clanGUI-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Debug/clanGUI-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanGUI-static-mtdll-debug.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanGUI-static-mtdll-debug.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>Installing library and API headers...</Message>
+      <Command>call install_clanGUI.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;..\..\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>.;O:\projects\SharedLib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;USE_OPENGL;USE_NETWORK;USE_CLANSOUND;DIRECTINPUT_VERSION=0x0800;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\../Release/clanGUI-static-mtdll/clanGUI.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../Release/clanGUI-static-mtdll/</AssemblerListingLocation>
+      <ObjectFileName>.\../Release/clanGUI-static-mtdll/</ObjectFileName>
+      <ProgramDataBaseFileName>O:\projects\SharedLib\lib\Clanlib\clanGUI-static-mtdll.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>O:\projects\SharedLib\lib\Clanlib\clanGUI-static-mtdll.lib</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="API\gui.h" />
+    <ClInclude Include="API\GUI\button.h" />
+    <ClInclude Include="API\GUI\checkbox.h" />
+    <ClInclude Include="API\GUI\component.h" />
+    <ClInclude Include="API\GUI\component_manager.h" />
+    <ClInclude Include="API\GUI\component_move_handler.h" />
+    <ClInclude Include="API\GUI\component_resize_handler.h" />
+    <ClInclude Include="API\GUI\component_style.h" />
+    <ClInclude Include="API\GUI\component_type.h" />
+    <ClInclude Include="API\GUI\deck.h" />
+    <ClInclude Include="API\GUI\filedialog.h" />
+    <ClInclude Include="API\GUI\frame.h" />
+    <ClInclude Include="API\GUI\gui_manager.h" />
+    <ClInclude Include="API\GUI\image.h" />
+    <ClInclude Include="API\GUI\inputbox.h" />
+    <ClInclude Include="API\GUI\inputbox_stylebase.h" />
+    <ClInclude Include="API\GUI\inputdialog.h" />
+    <ClInclude Include="API\GUI\label.h" />
+    <ClInclude Include="API\GUI\layout.h" />
+    <ClInclude Include="API\GUI\listbox.h" />
+    <ClInclude Include="API\GUI\listitem.h" />
+    <ClInclude Include="API\GUI\menu.h" />
+    <ClInclude Include="API\GUI\menu_item.h" />
+    <ClInclude Include="API\GUI\menu_node.h" />
+    <ClInclude Include="API\GUI\messagebox.h" />
+    <ClInclude Include="API\GUI\progressbar.h" />
+    <ClInclude Include="API\GUI\radiobutton.h" />
+    <ClInclude Include="API\GUI\radiogroup.h" />
+    <ClInclude Include="API\GUI\richedit.h" />
+    <ClInclude Include="API\GUI\richedit_paragraph.h" />
+    <ClInclude Include="API\GUI\scrollbar.h" />
+    <ClInclude Include="API\GUI\setupgui.h" />
+    <ClInclude Include="API\GUI\stylemanager.h" />
+    <ClInclude Include="API\GUI\treeitem.h" />
+    <ClInclude Include="API\GUI\treenode.h" />
+    <ClInclude Include="API\GUI\treeview.h" />
+    <ClInclude Include="API\GUI\window.h" />
+    <ClInclude Include="GUI\button_generic.h" />
+    <ClInclude Include="GUI\component_generic.h" />
+    <ClInclude Include="GUI\component_manager_generic.h" />
+    <ClInclude Include="GUI\component_type_generic.h" />
+    <ClInclude Include="GUI\deck_generic.h" />
+    <ClInclude Include="GUI\default_component_types.h" />
+    <ClInclude Include="GUI\filedialog_generic.h" />
+    <ClInclude Include="GUI\frame_generic.h" />
+    <ClInclude Include="GUI\gui_manager_generic.h" />
+    <ClInclude Include="GUI\image_generic.h" />
+    <ClInclude Include="GUI\inputbox_generic.h" />
+    <ClInclude Include="GUI\inputdialog_generic.h" />
+    <ClInclude Include="GUI\label_generic.h" />
+    <ClInclude Include="GUI\layout_generic.h" />
+    <ClInclude Include="GUI\layout_item.h" />
+    <ClInclude Include="GUI\listbox_generic.h" />
+    <ClInclude Include="GUI\menu_generic.h" />
+    <ClInclude Include="GUI\menu_item_generic.h" />
+    <ClInclude Include="GUI\menu_node_generic.h" />
+    <ClInclude Include="GUI\messagebox_generic.h" />
+    <ClInclude Include="GUI\precomp.h" />
+    <ClInclude Include="GUI\progressbar_generic.h" />
+    <ClInclude Include="GUI\radiogroup_generic.h" />
+    <ClInclude Include="GUI\richedit_generic.h" />
+    <ClInclude Include="GUI\scrollbar_generic.h" />
+    <ClInclude Include="GUI\treeitem_generic.h" />
+    <ClInclude Include="GUI\treenode_generic.h" />
+    <ClInclude Include="GUI\treeview_generic.h" />
+    <ClInclude Include="GUI\window_generic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI\button.cpp" />
+    <ClCompile Include="GUI\button_generic.cpp" />
+    <ClCompile Include="GUI\checkbox.cpp" />
+    <ClCompile Include="GUI\component.cpp" />
+    <ClCompile Include="GUI\component_generic.cpp" />
+    <ClCompile Include="GUI\component_manager.cpp" />
+    <ClCompile Include="GUI\component_manager_generic.cpp" />
+    <ClCompile Include="GUI\component_move_handler.cpp" />
+    <ClCompile Include="GUI\component_resize_handler.cpp" />
+    <ClCompile Include="GUI\component_type.cpp" />
+    <ClCompile Include="GUI\deck.cpp" />
+    <ClCompile Include="GUI\deck_generic.cpp" />
+    <ClCompile Include="GUI\filedialog.cpp" />
+    <ClCompile Include="GUI\filedialog_generic.cpp" />
+    <ClCompile Include="GUI\frame.cpp" />
+    <ClCompile Include="GUI\frame_generic.cpp" />
+    <ClCompile Include="GUI\gui_manager.cpp" />
+    <ClCompile Include="GUI\gui_manager_generic.cpp" />
+    <ClCompile Include="GUI\image.cpp" />
+    <ClCompile Include="GUI\image_generic.cpp" />
+    <ClCompile Include="GUI\inputbox.cpp" />
+    <ClCompile Include="GUI\inputbox_generic.cpp" />
+    <ClCompile Include="GUI\inputbox_stylebase.cpp" />
+    <ClCompile Include="GUI\inputdialog.cpp" />
+    <ClCompile Include="GUI\inputdialog_generic.cpp" />
+    <ClCompile Include="GUI\label.cpp" />
+    <ClCompile Include="GUI\label_generic.cpp" />
+    <ClCompile Include="GUI\layout.cpp" />
+    <ClCompile Include="GUI\layout_generic.cpp" />
+    <ClCompile Include="GUI\layout_item.cpp" />
+    <ClCompile Include="GUI\listbox.cpp" />
+    <ClCompile Include="GUI\listbox_generic.cpp" />
+    <ClCompile Include="GUI\menu.cpp" />
+    <ClCompile Include="GUI\menu_generic.cpp" />
+    <ClCompile Include="GUI\menu_item.cpp" />
+    <ClCompile Include="GUI\menu_item_generic.cpp" />
+    <ClCompile Include="GUI\menu_node.cpp" />
+    <ClCompile Include="GUI\menu_node_generic.cpp" />
+    <ClCompile Include="GUI\messagebox.cpp" />
+    <ClCompile Include="GUI\messagebox_generic.cpp" />
+    <ClCompile Include="GUI\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MT Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MTDLL Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GUI\progressbar.cpp" />
+    <ClCompile Include="GUI\progressbar_generic.cpp" />
+    <ClCompile Include="GUI\radiobutton.cpp" />
+    <ClCompile Include="GUI\radiogroup.cpp" />
+    <ClCompile Include="GUI\radiogroup_generic.cpp" />
+    <ClCompile Include="GUI\richedit.cpp" />
+    <ClCompile Include="GUI\richedit_generic.cpp" />
+    <ClCompile Include="GUI\richedit_paragraph.cpp" />
+    <ClCompile Include="GUI\scrollbar.cpp" />
+    <ClCompile Include="GUI\scrollbar_generic.cpp" />
+    <ClCompile Include="GUI\setupgui.cpp" />
+    <ClCompile Include="GUI\stylemanager.cpp" />
+    <ClCompile Include="GUI\treeitem.cpp" />
+    <ClCompile Include="GUI\treeitem_generic.cpp" />
+    <ClCompile Include="GUI\treenode.cpp" />
+    <ClCompile Include="GUI\treenode_generic.cpp" />
+    <ClCompile Include="GUI\treeview.cpp" />
+    <ClCompile Include="GUI\treeview_generic.cpp" />
+    <ClCompile Include="GUI\window.cpp" />
+    <ClCompile Include="GUI\window_generic.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

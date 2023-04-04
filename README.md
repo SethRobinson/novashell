@@ -6,8 +6,6 @@ License:  BSD style attribution, see LICENSE.md
 <a href="https://www.rtsoft.com/novashell/"><img align="top" src="novashell/gitdocs/screenshots.png"></a>
 </p>
 
-# Download the latest [Novashell V0.85 (Windows, 23 MB)](https://www.rtsoft.com/files/Novashell_Windows.zip) 
-
 # What is Novashell?
 
 It's an open source multi-platform 2D game engine that was first released in 2006 and discontinued in 2009.  It is not in active development and uploaded for archival & historical reasons.
@@ -20,6 +18,15 @@ It's an open source multi-platform 2D game engine that was first released in 200
   * Fully persistent live modifiable maps with save anywhere
   * Can export maps as .xml to use with Ogmo/etc
   * Full feature list [here](https://www.rtsoft.com/novashell/features.htm)
+
+  ## Download
+  
+  [Novashell V0.85 (Windows, 23 MB)](https://www.rtsoft.com/files/Novashell_Windows.zip) 
+
+  ## Known problems/issues
+
+  * At very large resolutions (3440x1440+) positioned sound effects can't be heard
+  
     
 ## What's changed as of April 4th, 2023
 

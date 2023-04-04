@@ -10,7 +10,8 @@ IF NOT EXIST "%VSPATH%" (
 
 echo Compiling the solution using Visual Studio 2022...
 call "%VSPATH%vcvars64.bat"
-MSBuild "novashell.sln" /t:Build /p:Configuration=Release;Platform=Win32
+:Note: Can remove the Clean; part if you don't need clean builds
+MSBuild "novashell.sln" /t:Clean;Build /p:Configuration=Release;Platform=Win32
 
 if %errorlevel% neq 0 (
   echo There was an error during compilation.

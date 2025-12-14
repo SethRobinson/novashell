@@ -2,8 +2,16 @@
 # Novashell Game Creation System
 License:  BSD style attribution, see [LICENSE.md](LICENSE.md)
 
-<p float="left">
-<a href="https://www.rtsoft.com/novashell/"><img align="top" src="novashell/gitdocs/screenshots.png"></a>
+<p align="center">
+<a href="https://www.rtsoft.com/novashell/"><img src="novashell/gitdocs/screenshots.png"></a>
+<br>
+<em>Screenshots of Novashell example games it comes with</em>
+</p>
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=VntDhQwBXeM"><img src="novashell/gitdocs/fake_youtube_button.png" alt="Watch Novashell video on YouTube"></a>
+<br>
+<em>A video of Novashell in action</em>
 </p>
 
 # What is Novashell?
